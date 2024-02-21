@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><!DOCTYPE html>
+      <html lang="en">
+      <head>
+      <meta charset="UTF-8">
+      <title>Contactpagina</title>
+  <link rel="stylesheet" href="stylesheets/style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body>
+
+<div class="page">
+  <section class="contact">
+
+    <h1>Contact</h1>
+
+    <form novalidate action="http://localhost:3000/form" method="post" class="form-contactpagina">
+
+      <div class="form-contactpagina__inputelement fx-col">
+        <label for="name">Naam: </label>
+        <input type="text" name="name" id="name" required>
+      </div>
+
+      <div class="form-contactpagina__inputelement fx-col">
+      <label for="email"></label>
+        <span>Email:</span>
+        <input type="email" name="email" id="email" required minlength="8">
+        <span class="error" aria-live="polite"></span>
+    </div>
+
+      <div class="form-contactpagina__inputelement fx-col" 
+            pattern="(^\+[0-9]{2}|^\+[0-9]{2}\(0\)|^\(\+[0-9]{2}\)\(0\)|^00[0-9]{2}|^0)([0-9]{9}$|[0-9\-\s]{10}$)"> // nog naar kijken
+        <label for="Telefoonnummer">Telefoonnummer: </label>
+        <input type="Telefoonnummer" name="Telefoonnummer" id="Telefoonnummer" required>
+      </div>
+
+      <div class="form-contactpagina__inputelement">
+      <fieldset>
+        <legend>Wil je onze nieuwsbrief ontvangen?</legend>
+        <label><input type="radio" name="newsletter" value="yes" checked/> Ja, graag!</label>
+        <label><input type="radio" name="newsletter" value="no" /> Nee, een andere keer</label>
+      </fieldset>
+      </div>
+
+      <div class="form-contactpagina__inputelement fx-col">
+        <label for="call-date">Op welke dag kunnen we bellen? </label>
+        <input name="call-date" type="date" id="call-date">
+      </div>
+
+      <div class="form-contactpagina__inputelement">
+        <input type="submit" value="Verstuur!" >
+        <input type="reset" value="Reset">
+      </div>
+
+    
+
+    </form>
+
+
+  </section>
+</div>
+
+<script type="text/JavaScript">
+  function Redirect() {
+ window.location.assign("http://127.0.0.1:5500/Profiel-page/index.html");
+  }
+</script>
+
+</body>
