@@ -1,5 +1,5 @@
 /*mobile version*/
-
+/* 
 .page {
     display: flex;
     flex-direction: column;
@@ -25,4 +25,81 @@
 
 @media only screen and (min-width: 800px) {
 
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #555;
+    text-align: center;
+}
+
+.back-to-cv {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.back-to-cv:hover {
+    background-color: #444;
+}
+
+.form-contactpagina {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.form-contactpagina__inputelement {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="Telefoonnummer"],
+input[type="date"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #444;
 }

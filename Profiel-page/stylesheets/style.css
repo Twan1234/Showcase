@@ -1,5 +1,4 @@
-/*mobile version*/
-
+/* Mobile version */
 .page {
     display: flex;
     flex-direction: column;
@@ -46,8 +45,6 @@
 }
 
 .profile-content__element--hidden-mobile {
-    display: flex;
-    flex-direction: column;
     display: none;
 }
 
@@ -70,21 +67,22 @@
 
 @media only screen and (min-width: 800px) {
 
+    /* Desktop version */
     .page {
         flex-direction: row;
     }
 
-    .person-name{
+    .person-name {
         order: -1;
     }
 
-    .profile-content__category--hidden-mobile{
+    .profile-content__category--hidden-mobile {
         display: flex;
         flex-direction: column;
     }
 
-    /*fix: anders als stipje zichtbaar*/
-    .profile-content__category--hidden-mobile hr{
+    /* Fix: anders als stipje zichtbaar */
+    .profile-content__category--hidden-mobile hr {
         width: 100%;
     }
 
@@ -92,7 +90,7 @@
         display: flex;
     }
 
-    .profile-content__element-header{
+    .profile-content__element-header {
         display: flex;
         justify-content: space-between;
     }
@@ -102,9 +100,4 @@
         color: #5c6166;
         display: flex;
     }
-
 }
-
-
-/*student uitwerking*/
-
