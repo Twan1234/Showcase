@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Repos\\Showcase\\Showcase.csproj": {}
+    "C:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj": {}
   },
   "projects": {
-    "E:\\Repos\\Showcase\\Showcase.csproj": {
+    "C:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Repos\\Showcase\\Showcase.csproj",
+        "projectUniqueName": "C:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj",
         "projectName": "Showcase",
-        "projectPath": "E:\\Repos\\Showcase\\Showcase.csproj",
-        "packagesPath": "C:\\Users\\tkloek0882\\.nuget\\packages\\",
-        "outputPath": "E:\\Repos\\Showcase\\obj\\",
+        "projectPath": "C:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj",
+        "packagesPath": "C:\\Users\\klotwa_Vene\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\Webdev-Showcase\\Showcase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tkloek0882\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\klotwa_Vene\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/CodeGlass/_packaging/CodeGlass_Feed%40Local/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -35,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -64,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

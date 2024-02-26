@@ -18,6 +18,11 @@ app.use(bodyParser.json());
 app.post
 app.listen(port, () => console.log(`Server listening on port ${port}!`));
 
+app.get('/gdpr', (req, res) => {
+    res.setHeader('Set-Cookie', 'gdpr=1; path=/; expires=Fri, 1 Nov 2024 23:59:59 GMT');
+    res.json('OK');
+});
+
 app.post('/captcha', async (req, res) => {
     const token = req.body.response;
     const secret = "6LdfJnspAAAAAJP_2L-HvTlheZqL4U2Ta0AwYm3S";
