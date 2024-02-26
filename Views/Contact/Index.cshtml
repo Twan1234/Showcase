@@ -1,0 +1,58 @@
+@{
+    ViewData["Title"] = "Contact Page";
+}
+
+<link rel="stylesheet" href="~/css/contact.css">
+<script src="https://www.google.com/recaptcha/api.js?render=6LdfJnspAAAAAMlKRaMHdHHso7zlXlOHfM_vAsNb"></script>
+<script type="module" src="~/js/form-versturen/scripts/captcha.js"></script>
+
+
+<div class="page">
+    <section class="contact">
+        <h1>Contact</h1>
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="form-contactpagina" id="contact-form">
+            <input type="hidden" name="access_key" value="5335c974-3d69-4aee-af2a-7ef450e9df59">
+
+
+            <div class="form-contactpagina__inputelement">
+                <label for="name">Naam:</label>
+                <input type="text" name="name" id="name" required aria-label="Naam">
+            </div>
+
+            <div class="form-contactpagina__inputelement">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required minlength="8" aria-label="Emailadres">
+                <span class="error" aria-live="polite"></span>
+            </div>
+
+            <div class="form-contactpagina__inputelement">
+                <label for="Telefoonnummer">Telefoonnummer:</label>
+                <input type="tel" name="Telefoonnummer" id="Telefoonnummer" required aria-label="Telefoonnummer">
+            </div>
+
+            <div class="form-contactpagina__inputelement">
+                <fieldset>
+                    <legend>Wil je onze nieuwsbrief ontvangen?</legend>
+                    <label><input type="radio" name="newsletter" value="yes" checked>Ja, graag!</label>
+                    <label><input type="radio" name="newsletter" value="no">Nee, een andere keer</label>
+                </fieldset>
+            </div>
+
+            <div class="form-contactpagina__inputelement">
+                <label for="call-date">Op welke dag kunnen we bellen?</label>
+                <input type="date" name="call-date" id="call-date">
+            </div>
+
+            <div class="form-contactpagina__inputelement">
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Bericht"></textarea>
+            </div>
+
+            <div class="form-contactpagina__inputelement">
+                <input type="submit" value="Verstuur">
+                <input type="reset" value="Reset"
+                    onclick="return confirm('Weet je zeker dat je het formulier wilt resetten?')">
+            </div>
+        </form>
+    </section>
+</div>
