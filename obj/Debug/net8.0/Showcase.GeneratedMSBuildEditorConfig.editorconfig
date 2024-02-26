@@ -9,51 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Showcase
 build_property.RootNamespace = Showcase
-build_property.ProjectDir = c:\Repos\Webdev-Showcase\Showcase\
+build_property.ProjectDir = e:\Repos\Showcase\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Repos\Webdev-Showcase\Showcase
+build_property.MSBuildProjectDirectory = e:\Repos\Showcase
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Repos/Webdev-Showcase/Showcase/Views/Contact/Index.cshtml]
+[e:/Repos/Showcase/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Repos/Webdev-Showcase/Showcase/Views/Home/Index.cshtml]
+[e:/Repos/Showcase/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Repos/Webdev-Showcase/Showcase/Views/Home/Privacy.cshtml]
+[e:/Repos/Showcase/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Repos/Webdev-Showcase/Showcase/Views/Profile/Index.cshtml]
+[e:/Repos/Showcase/Views/Profile/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZmlsZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Repos/Webdev-Showcase/Showcase/Views/Shared/Error.cshtml]
+[e:/Repos/Showcase/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Repos/Webdev-Showcase/Showcase/Views/Shared/gdpr.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGdkcHIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[c:/Repos/Webdev-Showcase/Showcase/Views/Shared/_ValidationScriptsPartial.cshtml]
+[e:/Repos/Showcase/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Repos/Webdev-Showcase/Showcase/Views/_ViewImports.cshtml]
+[e:/Repos/Showcase/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Repos/Webdev-Showcase/Showcase/Views/_ViewStart.cshtml]
+[e:/Repos/Showcase/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Repos/Webdev-Showcase/Showcase/Views/Shared/_Layout.cshtml]
+[e:/Repos/Showcase/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-7evhkq9xmo
