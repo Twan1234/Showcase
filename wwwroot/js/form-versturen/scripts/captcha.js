@@ -9,6 +9,7 @@ async function onSubmit(e) {
         try {
             const token = await grecaptcha.execute('6LdfJnspAAAAAMlKRaMHdHHso7zlXlOHfM_vAsNb', { action: 'submit' });
             
+
             const response = await fetch('http://localhost:3000/captcha', {
                 method: "POST",
                 headers: {
@@ -27,9 +28,10 @@ async function onSubmit(e) {
                     method: 'POST',
                     body: formData
                 });
-                
+                            
+
                 alert('Bedankt voor uw bericht! We nemen spoedig contact met u op.');
-                form.submit();
+                form.reset();
             } else {
                 alert('reCAPTCHA verification failed.');
             }

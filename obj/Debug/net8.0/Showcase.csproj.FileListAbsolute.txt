@@ -30,10 +30,10 @@ e:\Repos\Showcase\obj\Debug\net8.0\refint\Showcase.dll
 e:\Repos\Showcase\obj\Debug\net8.0\Showcase.pdb
 e:\Repos\Showcase\obj\Debug\net8.0\Showcase.genruntimeconfig.cache
 e:\Repos\Showcase\obj\Debug\net8.0\ref\Showcase.dll
+e:\Repos\Showcase\bin\Debug\net8.0\Contact-page\form-versturen\server\package-lock.json
 C:\Repos\Webdev-Showcase\Showcase\bin\Debug\net8.0\appsettings.Development.json
 C:\Repos\Webdev-Showcase\Showcase\bin\Debug\net8.0\appsettings.json
 C:\Repos\Webdev-Showcase\Showcase\bin\Debug\net8.0\package-lock.json
-C:\Repos\Webdev-Showcase\Showcase\bin\Debug\net8.0\Contact-page\form-versturen\server\package-lock.json
 C:\Repos\Webdev-Showcase\Showcase\bin\Debug\net8.0\Showcase.staticwebassets.runtime.json
 C:\Repos\Webdev-Showcase\Showcase\bin\Debug\net8.0\Showcase.exe
 C:\Repos\Webdev-Showcase\Showcase\bin\Debug\net8.0\Showcase.deps.json
@@ -63,4 +63,3 @@ C:\Repos\Webdev-Showcase\Showcase\obj\Debug\net8.0\refint\Showcase.dll
 C:\Repos\Webdev-Showcase\Showcase\obj\Debug\net8.0\Showcase.pdb
 C:\Repos\Webdev-Showcase\Showcase\obj\Debug\net8.0\Showcase.genruntimeconfig.cache
 C:\Repos\Webdev-Showcase\Showcase\obj\Debug\net8.0\ref\Showcase.dll
-e:\Repos\Showcase\bin\Debug\net8.0\Contact-page\form-versturen\server\package-lock.json
