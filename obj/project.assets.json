@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj",
+      "projectUniqueName": "C:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj",
       "projectName": "Showcase",
-      "projectPath": "c:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj",
+      "projectPath": "C:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj",
       "packagesPath": "C:\\Users\\klotwa_Vene\\.nuget\\packages\\",
-      "outputPath": "c:\\Repos\\Webdev-Showcase\\Showcase\\obj\\",
+      "outputPath": "C:\\Repos\\Webdev-Showcase\\Showcase\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\klotwa_Vene\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -64,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
