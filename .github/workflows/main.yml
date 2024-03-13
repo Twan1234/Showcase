@@ -2,6 +2,19 @@ name: GitHub Actions Demo
 run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
 on: [push]
 jobs:
+  deploy:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout code
+      uses: action/checkout@v3
+    - name: Build .NET App
+      run : dotnet build
+    - name: Publish application
+      run : dotnet publish -c Release -o publish/
+    # - name: clean inetpub API
+    #   run : Remove-Item C:\inetpub\..
+    # - name: deploying API
+    #   run : ...
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
