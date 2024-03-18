@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj": {}
+    "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj": {}
   },
   "projects": {
-    "c:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj": {
+    "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj",
+        "projectUniqueName": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj",
         "projectName": "Showcase",
-        "projectPath": "c:\\Repos\\Webdev-Showcase\\Showcase\\Showcase.csproj",
+        "projectPath": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj",
         "packagesPath": "C:\\Users\\klotwa_Vene\\.nuget\\packages\\",
-        "outputPath": "c:\\Repos\\Webdev-Showcase\\Showcase\\obj\\",
+        "outputPath": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\klotwa_Vene\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -44,6 +44,30 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
