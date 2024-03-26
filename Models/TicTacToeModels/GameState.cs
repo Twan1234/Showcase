@@ -9,7 +9,7 @@
 
         public event Action<int, int> MoveMade;
         public event Action<GameResult> GameEnded;
-        public event Action<GameResult> GameRestarted;
+        public event Action GameRestarted;
 
         public GameState()
         {
@@ -89,6 +89,56 @@
 
         }
 
+        private bool DidMoveEndGame(int r, int c, out GameResult gameResult)
+        {
+            if (DidMoveWin(r, c, out WinInfo winInfo))
+            {
+                gameResult = new GameResult { Winner = CurrentPlayer, WinInfo = winInfo};
+                return true;
+            }
+
+            if (IsGridFull())
+            {
+            gameResult = new GameResult { Winner = Player.None };
+            return false;
+            }
+
+            gameResult = null;
+            return false;
+        }
+
+        public void MakeMode(int r, int c)
+        {
+            if (!CanMakeMove(r, c))
+            {
+                return;
+            }
+
+            GameGrid[r, c] = CurrentPlayer;
+            TurnsPassed++;
+
+            if (DidMoveEndGame(r, c, out GameResult gameResult))
+            {
+                GameOver = true;
+                MoveMade?.Invoke(r,c);
+                GameEnded?.Invoke(gameResult);
+            } else
+            {
+                SwitchPlayer();
+                MoveMade?.Invoke(r, c);
+            }                
+        }
+
+        public void Reset()
+        {
+            GameGrid = new Player[3, 3];
+            CurrentPlayer = Player.X;
+            TurnsPassed = 0;
+            GameOver = false;
+            GameRestarted?.Invoke();
+
+        }
+
     }
 }
-}
+

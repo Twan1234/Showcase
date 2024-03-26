@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Showcase.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Showcase.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\Images\\TwanKloekPhoto.JPEG",
+      "PackagePath": "staticwebassets\\Images\\TwanKloekPhoto.JPEG"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\contact.css",
+      "PackagePath": "staticwebassets\\css\\contact.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\gdpr.css",
+      "PackagePath": "staticwebassets\\css\\gdpr.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\profile.css",
+      "PackagePath": "staticwebassets\\css\\profile.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\scripts\\captcha.js",
+      "PackagePath": "staticwebassets\\js\\form-versturen\\scripts\\captcha.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package-lock.json",
+      "PackagePath": "staticwebassets\\js\\form-versturen\\server\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package.json",
+      "PackagePath": "staticwebassets\\js\\form-versturen\\server\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\server.js",
+      "PackagePath": "staticwebassets\\js\\form-versturen\\server\\server.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\gdpr.js",
+      "PackagePath": "staticwebassets\\js\\gdpr.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\qr.js",
+      "PackagePath": "staticwebassets\\js\\qr.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\.gitignore",
+      "PackagePath": "staticwebassets\\lib\\qrcode\\.gitignore"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\qrcode"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\README.md",
+      "PackagePath": "staticwebassets\\lib\\qrcode\\README.md"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\bower.json",
+      "PackagePath": "staticwebassets\\lib\\qrcode\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index-svg.html",
+      "PackagePath": "staticwebassets\\lib\\qrcode\\index-svg.html"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.html",
+      "PackagePath": "staticwebassets\\lib\\qrcode\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.svg",
+      "PackagePath": "staticwebassets\\lib\\qrcode\\index.svg"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\qrcode\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.js",
+      "PackagePath": "staticwebassets\\lib\\qrcode\\qrcode.js"
+    },
+    {
+      "Id": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.min.js",
+      "PackagePath": "staticwebassets\\lib\\qrcode\\qrcode.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Showcase.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Showcase.props",
+      "PackagePath": "build\\Showcase.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Showcase.props",
+      "PackagePath": "buildMultiTargeting\\Showcase.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Showcase.props",
+      "PackagePath": "buildTransitive\\Showcase.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

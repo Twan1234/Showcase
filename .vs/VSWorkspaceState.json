@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Migrations",
+    "\\Models",
+    "\\Models\\TicTacToeModels"
   ],
-  "SelectedNode": "\\Showcase.sln",
+  "SelectedNode": "\\appsettings.json",
   "PreviewInSolutionExplorer": false
 }
