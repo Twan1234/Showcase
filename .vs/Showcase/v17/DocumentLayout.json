@@ -3,92 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\hubs\\tictactoehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:hubs\\tictactoehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\views\\tictactoe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:views\\tictactoe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\lib\\qrcode\\qrcode.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:models\\userconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\gdpr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\js\\gdpr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\qr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:wwwroot\\js\\qr.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\Account\\Logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\Account\\Login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\Account\\Register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_AuthLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\_AuthLayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Areas\\Identity\\Pages\\_ViewStart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\GameResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\TicTacToeModels\\GameResult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\TicTacToeModels\\Player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\WinInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\TicTacToeModels\\WinInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\GameState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\TicTacToeModels\\GameState.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\WinType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\TicTacToeModels\\WinType.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\dataservice\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:dataservice\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,8 +26,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 10,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\TicTacToe\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\TicTacToe\\Index.cshtml",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\TicTacToe\\Index.cshtml",
+              "RelativeToolTip": "Views\\TicTacToe\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-03T11:40:35.783Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -109,270 +51,77 @@
               "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{fabf9319-47eb-497e-b8f6-d9f73fba5f55}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-19T10:56:35.794Z",
+              "DocumentIndex": 3,
+              "Title": "SharedDb.cs",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\DataService\\SharedDb.cs",
+              "RelativeDocumentMoniker": "DataService\\SharedDb.cs",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\DataService\\SharedDb.cs",
+              "RelativeToolTip": "DataService\\SharedDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T14:52:48.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "qrcode.js",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.js",
-              "RelativeDocumentMoniker": "wwwroot\\lib\\qrcode\\qrcode.js",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.js",
-              "RelativeToolTip": "wwwroot\\lib\\qrcode\\qrcode.js",
-              "ViewState": "AQIAAJYAAAAAAAAAAAAiwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-03-19T09:56:10.759Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "gdpr.js",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\gdpr.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\gdpr.js",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\gdpr.js",
-              "RelativeToolTip": "wwwroot\\js\\gdpr.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-03-19T09:41:49.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "qr.js",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\qr.js",
-              "RelativeDocumentMoniker": "wwwroot\\js\\qr.js",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\qr.js",
-              "RelativeToolTip": "wwwroot\\js\\qr.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-03-19T09:31:06.978Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EnableAuthenticator.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\EnableAuthenticator.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T09:28:11.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ManageNavPages.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Title": "UserConnection.cs",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\UserConnection.cs",
+              "RelativeDocumentMoniker": "Models\\UserConnection.cs",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\UserConnection.cs",
+              "RelativeToolTip": "Models\\UserConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T09:28:05.169Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TwoFactorAuthentication.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Manage\\TwoFactorAuthentication.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T09:25:40.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T07:50:01.341Z",
+              "WhenOpened": "2025-03-20T14:51:27.727Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T07:50:04.013Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T07:50:26.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "LoginWith2fa.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\LoginWith2fa.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T07:52:07.757Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T07:52:40.812Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T07:52:25.077Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAKAAAAAAAAAAAAAcwAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "TicTacToeHub.cs",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Hubs\\TicTacToeHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\TicTacToeHub.cs",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Hubs\\TicTacToeHub.cs",
+              "RelativeToolTip": "Hubs\\TicTacToeHub.cs",
+              "ViewState": "AgIAAOoAAAAAAAAAAADgvwYBAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-19T07:50:19.785Z"
+              "WhenOpened": "2025-03-10T17:54:50.758Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 284,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:26819029:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "_AuthLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_AuthLayout.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_AuthLayout.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\_AuthLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T07:50:09.144Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ForgotPassword.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\ForgotPassword.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABgAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T07:49:20.629Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-19T07:49:58.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "GameResult.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\GameResult.cs",
-              "RelativeDocumentMoniker": "Models\\TicTacToeModels\\GameResult.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\GameResult.cs",
-              "RelativeToolTip": "Models\\TicTacToeModels\\GameResult.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T15:22:40.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Player.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\Player.cs",
-              "RelativeDocumentMoniker": "Models\\TicTacToeModels\\Player.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\Player.cs",
-              "RelativeToolTip": "Models\\TicTacToeModels\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T15:22:37.022Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "WinInfo.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\WinInfo.cs",
-              "RelativeDocumentMoniker": "Models\\TicTacToeModels\\WinInfo.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\WinInfo.cs",
-              "RelativeToolTip": "Models\\TicTacToeModels\\WinInfo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T15:22:35.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "GameState.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\GameState.cs",
-              "RelativeDocumentMoniker": "Models\\TicTacToeModels\\GameState.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\GameState.cs",
-              "RelativeToolTip": "Models\\TicTacToeModels\\GameState.cs",
-              "ViewState": "AQIAAIQAAAAAAAAAAAAiwA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T15:13:28.537Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "WinType.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\WinType.cs",
-              "RelativeDocumentMoniker": "Models\\TicTacToeModels\\WinType.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Models\\TicTacToeModels\\WinType.cs",
-              "RelativeToolTip": "Models\\TicTacToeModels\\WinType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T15:12:42.155Z"
+              "$type": "Bookmark",
+              "Name": "ST:1489434186:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             }
           ]
         }

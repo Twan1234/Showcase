@@ -1,0 +1,40 @@
+﻿@model Showcase.Models.TicTacToeModels.GameModel
+@using System.IO
+@using System.Linq
+@{
+    ViewData["Title"] = "TicTacToe Page";
+}
+
+@{
+    var reactCssPath = "";
+    var reactJsPath = "";
+
+    var cssPath = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "react", "static", "css");
+    var jsPath = System.IO.Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "react", "static", "js");
+
+    var cssFiles = Directory.GetFiles(cssPath, "main.*.css");
+    if (cssFiles.Any())
+    {
+        var cssFileName = System.IO.Path.GetFileName(cssFiles.First());
+        reactCssPath = Url.Content($"~/react/static/css/{cssFileName}");
+    }
+
+    var jsFiles = Directory.GetFiles(jsPath, "main.*.js");
+    if (jsFiles.Any())
+    {
+        var jsFileName = System.IO.Path.GetFileName(jsFiles.First());
+        reactJsPath = Url.Content($"~/react/static/js/{jsFileName}");
+    }
+}
+
+@if (!string.IsNullOrEmpty(reactCssPath))
+{
+    <link rel="stylesheet" href="@reactCssPath" />
+}
+
+<div id="root"></div>
+
+@if (!string.IsNullOrEmpty(reactJsPath))
+{
+    <script src="@reactJsPath"></script>
+}

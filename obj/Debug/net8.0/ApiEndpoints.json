@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "ContainingType": "Showcase.Controllers.UserController",
+    "Method": "GetCurrentUser",
+    "RelativePath": "api/user/me",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
