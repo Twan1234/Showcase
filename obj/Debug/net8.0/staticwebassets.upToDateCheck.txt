@@ -89,6 +89,6 @@ wwwroot\react\static\css\main.56a1ca81.css
 wwwroot\react\static\css\main.56a1ca81.css.map
 wwwroot\react\static\js\453.cbe581c7.chunk.js
 wwwroot\react\static\js\453.cbe581c7.chunk.js.map
-wwwroot\react\static\js\main.3a3ee708.js
-wwwroot\react\static\js\main.3a3ee708.js.LICENSE.txt
-wwwroot\react\static\js\main.3a3ee708.js.map
+wwwroot\react\static\js\main.5fd64458.js
+wwwroot\react\static\js\main.5fd64458.js.LICENSE.txt
+wwwroot\react\static\js\main.5fd64458.js.map

@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\bin",
     "\\Controllers",
     "\\DataService",
     "\\Hubs",
     "\\Migrations",
     "\\Models",
-    "\\Models\\TicTacToeModels",
     "\\Views",
     "\\Views\\TicTacToe"
   ],

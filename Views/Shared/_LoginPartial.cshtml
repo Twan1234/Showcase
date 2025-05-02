@@ -5,6 +5,16 @@
 @inject UserManager<ApplicationUser> UserManager
 
 <ul class="navbar-nav">
+
+ @if (SignInManager.IsSignedIn(User))
+    {
+        var user = await UserManager.GetUserAsync(User);
+        var is2faEnabled = await UserManager.GetTwoFactorEnabledAsync(user);
+        <div>
+            2FA: @(is2faEnabled ? "Enabled" : "Disabled")
+        </div>
+    }
+
 @if (SignInManager.IsSignedIn(User))
 {
     <li class="nav-item">

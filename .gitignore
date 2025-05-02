@@ -1,0 +1,38 @@
+# Dependency directories
+node_modules/
+venv/
+.env
+.env.*
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Build directories
+dist/
+build/
+out/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Misc
+*.bak
+*.tmp
+*.swp
+
+.vs/

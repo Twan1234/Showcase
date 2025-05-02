@@ -1,15 +1,15 @@
-﻿namespace Showcase.wwwroot.js
-{
-    public class qr
-    {
-        window.addEventListener("load", () => {
-        const uri = document.getElementById("qrCodeData").getAttribute('data-url');
-        new QRCode(document.getElementById("qrCode"),
-            {
-                text: uri,
-                width: 150,
-                height: 150
+﻿document.addEventListener("DOMContentLoaded", function () {
+    const qrDataElement = document.getElementById("qrCodeData");
+    const qrCodeContainer = document.getElementById("qrCode");
+
+    if (qrDataElement && qrCodeContainer) {
+        const url = qrDataElement.getAttribute("data-url");
+        if (url) {
+            new QRCode(qrCodeContainer, {
+                text: url,
+                width: 200,
+                height: 200,
             });
-    });
+        }
     }
-}
+});

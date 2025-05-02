@@ -210,8 +210,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>s0azrdfxuc</Fingerprint>
-      <Integrity>fJz98/51hn4HX1TBAbjRMexwY3k3XKowD9r0zIKh7AY=</Integrity>
+      <Fingerprint>lx39ecoc04</Fingerprint>
+      <Integrity>14V+kVxYd8aLXk4QxglzUXrP9TCuJoq6SULDPZa2FTg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\qr.js'))</OriginalItemSpec>
@@ -1452,8 +1452,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fe8t6i5sv3</Fingerprint>
-      <Integrity>OZKM1Kub+5fgkXZmZe9EAd3ENUjy0AXcFxBIZZF6lco=</Integrity>
+      <Fingerprint>thu6p8zze2</Fingerprint>
+      <Integrity>4agi9P9Wl1VizFEss9i3O/A1gQ+d7mUfp431514NgyY=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\asset-manifest.json'))</OriginalItemSpec>
@@ -1488,8 +1488,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>f4lqm9blqu</Fingerprint>
-      <Integrity>b3dZJEovMFI2IJGmbv0LPRiwq4RDntVAj0AAak/O5R0=</Integrity>
+      <Fingerprint>wyzeuakt3i</Fingerprint>
+      <Integrity>mHNrOMi78eYul3fSsEWRlReArDw792RbuBQUr8w2ad0=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\index.html'))</OriginalItemSpec>
@@ -1638,48 +1638,48 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\453.cbe581c7.chunk.js.map'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.3a3ee708.js'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.5fd64458.js'))">
       <SourceType>Package</SourceType>
       <SourceId>Showcase</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Showcase</BasePath>
-      <RelativePath>react/static/js/main.3a3ee708.js</RelativePath>
+      <RelativePath>react/static/js/main.5fd64458.js</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>mbazlb4a9j</Fingerprint>
-      <Integrity>/t+nY+Q0tzTOWHYUWa1ANC9i72oMbClRIImJjoLz/EE=</Integrity>
+      <Fingerprint>cb8iqznf7u</Fingerprint>
+      <Integrity>mPBau5AwtGt5vYLpab/hQKFdz3AO32/PoeQZgTcKcw4=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.3a3ee708.js'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.5fd64458.js'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.3a3ee708.js.map'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.5fd64458.js.map'))">
       <SourceType>Package</SourceType>
       <SourceId>Showcase</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Showcase</BasePath>
-      <RelativePath>react/static/js/main.3a3ee708.js.map</RelativePath>
+      <RelativePath>react/static/js/main.5fd64458.js.map</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>iwjf30sa3n</Fingerprint>
-      <Integrity>gjUras4atKQW6lUZ95iJ4iSGyvaYT9CIRboYEfKlPpM=</Integrity>
+      <Fingerprint>gu2ctgy396</Fingerprint>
+      <Integrity>aPa1agVNFW51S+gYvdljNVy5KxTyaUKffq5euYK71zo=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.3a3ee708.js.map'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.5fd64458.js.map'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.3a3ee708.js.LICENSE.txt'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.5fd64458.js.LICENSE.txt'))">
       <SourceType>Package</SourceType>
       <SourceId>Showcase</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/Showcase</BasePath>
-      <RelativePath>react/static/js/main.3a3ee708.js.LICENSE.txt</RelativePath>
+      <RelativePath>react/static/js/main.5fd64458.js.LICENSE.txt</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1690,7 +1690,7 @@
       <Integrity>L94Q/tqp66wZX/SE3bCJafXQSrKEumUACzy/CZJwNkA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.3a3ee708.js.LICENSE.txt'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\react\static\js\main.5fd64458.js.LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Showcase.6j8sf00dr8.bundle.scp.css'))">
       <SourceType>Package</SourceType>

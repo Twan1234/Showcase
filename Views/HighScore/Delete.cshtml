@@ -1,0 +1,26 @@
+﻿@model Showcase.Models.HighScore
+
+@{
+    ViewData["Title"] = "Delete High Score";
+}
+
+<h2>Delete High Score</h2>
+
+<div>
+    <p>Are you sure you want to delete <strong>@Model.PlayerName</strong>'s record?</p>
+
+    <dl class="row">
+        <dt class="col-sm-2">Wins</dt>
+        <dd class="col-sm-10">@Model.Wins</dd>
+        <dt class="col-sm-2">Losses</dt>
+        <dd class="col-sm-10">@Model.Losses</dd>
+        <dt class="col-sm-2">Draws</dt>
+        <dd class="col-sm-10">@Model.Draws</dd>
+    </dl>
+
+    <form asp-action="DeleteConfirmed">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-danger">Yes, Delete</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </form>
+</div>

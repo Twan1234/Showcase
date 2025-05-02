@@ -2,145 +2,106 @@
 using Microsoft.CodeAnalysis.Elfie.Model;
 using Showcase.DataService;
 using Showcase.Models;
-using Showcase.Models.TicTacToeModels;
 using System.Diagnostics;
 
 namespace Showcase.Hubs
 {
     public class TicTacToeHub : Hub
     {
-        private readonly SharedDb _shared;
-        private static Dictionary<string, string> currentTurn = new(); // Track whose turn it is
-        private static Dictionary<string, string[]> gameBoards = new();
-        private static Dictionary<string, string> pendingResets = new();
-        private static Dictionary<string, string> pendingRematches = new();
+        private readonly ITicTacToeDbService _dbService;
 
-
-        public TicTacToeHub(IServiceProvider serviceProvider)
+        public TicTacToeHub(ITicTacToeDbService dbService)
         {
-            _shared = serviceProvider.GetRequiredService<SharedDb>();
+            _dbService = dbService;
         }
 
-
-        public async Task JoinTicTacToeGameRoom(UserConnection conn)
+        public async Task JoinSpecificTicTacToeGameRoom(string roomCode, string username, string connectionId)
         {
-            await Clients.All
-                .SendAsync("ReceiveMessage", "admin", $"{conn.Username} has joined");
-        }
 
-        public async Task JoinSpecificTicTacToeGameRoom(UserConnection conn)
-        {
-            // Get current players in the room
-            var playersInRoom = _shared.connections
-                .Where(e => e.Value.TicTacToeGameRoom == conn.TicTacToeGameRoom)
-                .ToList();
-
-            // Allow only up to 2 players
-            if (playersInRoom.Count >= 2)
+            if (await _dbService.CheckOfGameVolIs(roomCode))
             {
                 await Clients.Caller.SendAsync("RoomFull");
                 return;
             }
 
-            await Groups.AddToGroupAsync(Context.ConnectionId, conn.TicTacToeGameRoom);
-            _shared.connections[Context.ConnectionId] = conn;
+            var session = await _dbService.CreateOrJoinGameSessionAsync(roomCode, username, Context.ConnectionId);
 
-            playersInRoom = _shared.connections
-                .Where(e => e.Value.TicTacToeGameRoom == conn.TicTacToeGameRoom)
-                .ToList();
+            await Groups.AddToGroupAsync(Context.ConnectionId, roomCode);
 
-            await Clients.Group(conn.TicTacToeGameRoom)
-                .SendAsync("PlayerCountUpdate", playersInRoom.Count);
+            await Clients.Group(roomCode)
+                .SendAsync("PlayerCountUpdate", session.Players.Count);
 
-            await Clients.Group(conn.TicTacToeGameRoom)
-              .SendAsync("JoinSpecificTicTacToeGameRoom", "admin", $"{conn.Username} has joined {conn.TicTacToeGameRoom}");
+            await Clients.Group(roomCode)
+              .SendAsync("JoinSpecificTicTacToeGameRoom", "admin", $"{username} has joined {roomCode}");
 
+            var currentPlayer = session.Players.FirstOrDefault(p => p.ConnectionId == Context.ConnectionId);
 
-            if (playersInRoom.Count == 1)
-            {
-                // First player joins: assign "x" and set turn
-                Console.WriteLine($"Assigning symbol 'x' to {Context.ConnectionId}");
-                conn.PlayerSymbol = "x";
-                await Clients.Caller.SendAsync("AssignSymbol", conn.PlayerSymbol);
-                currentTurn[conn.TicTacToeGameRoom] = Context.ConnectionId;
-                await Clients.Caller.SendAsync("UpdateTurn", new { ConnectionId = Context.ConnectionId});
-            }
-            else if (playersInRoom.Count == 2)
-            {
-                // Second player joins: assign "o"
-                Console.WriteLine($"Assigning symbol 'o' to {Context.ConnectionId}");
-                conn.PlayerSymbol = "o";
-                await Clients.Caller.SendAsync("AssignSymbol", conn.PlayerSymbol);
-                var firstPlayer = playersInRoom.First();
-                await Clients.Caller.SendAsync("UpdateTurn", new { ConnectionId = firstPlayer.Key});
-            }
-
-
-
+            await Clients.Caller.SendAsync("AssignSymbol", currentPlayer.PlayerSymbol);
+            await Clients.Caller.SendAsync("UpdateTurn", new { ConnectionId = session.CurrentTurnConnectionId });
         }
 
         public async Task SendMessage(string msg)
         {
-            if(_shared.connections.TryGetValue(Context.ConnectionId, out UserConnection conn))
+            var conn = await _dbService.GetConnectionByIdAsync(Context.ConnectionId);
+            if (conn != null)
             {
-                await Clients.Group(conn.TicTacToeGameRoom)
-                .SendAsync("ReceiveSpecificMessage",conn.Username, msg);
-            }          
-        }
-
-        public async Task SendMove(Move move)
-        {
-            if (_shared.connections.TryGetValue(Context.ConnectionId, out UserConnection conn))
-            {
-                var room = conn.TicTacToeGameRoom;
-
-                // Check turn
-                if (currentTurn.TryGetValue(room, out var currentPlayerId) && currentPlayerId == Context.ConnectionId)
-                {
-                    // Initialize board if not already
-                    if (!gameBoards.ContainsKey(room))
-                        gameBoards[room] = new string[9];
-
-                    var board = gameBoards[room];
-
-                    // Validate move
-                    if (move.Index < 0 || move.Index >= 9 || !string.IsNullOrEmpty(board[move.Index]))
-                        return;
-
-                    // Apply move
-                    board[move.Index] = move.Symbol;
-
-                    // Broadcast move
-                    await Clients.Group(room).SendAsync("ReceiveMove", move);
-
-                    // Check for winner
-                    string winner = CheckWinner(board);
-                    if (winner != null)
-                    {
-                        await Clients.Group(room).SendAsync("GameWon", winner);
-                        return;
-                    }
-
-                    // Check for draw
-                    if (board.All(cell => !string.IsNullOrEmpty(cell)))
-                    {
-                        await Clients.Group(room).SendAsync("GameDraw");
-                        return;
-                    }
-
-                    // Switch turns
-                    var nextPlayer = _shared.connections
-                        .Where(c => c.Value.TicTacToeGameRoom == room && c.Key != Context.ConnectionId)
-                        .Select(c => c.Key)
-                        .FirstOrDefault();
-
-                    currentTurn[room] = nextPlayer;
-                    await Clients.Group(room).SendAsync("UpdateTurn", new { ConnectionId = nextPlayer });
-                }
+                await Clients.Group(conn.GameSession.RoomCode)
+                    .SendAsync("ReceiveSpecificMessage", conn.Username, msg);
             }
         }
 
-        private string? CheckWinner(string[] board)
+        public async Task SendMove(int index, string symbol)
+        {
+            var conn = await _dbService.GetConnectionByIdAsync(Context.ConnectionId);
+            if (conn == null) return;
+            var session = conn.GameSession;
+
+            if (session.CurrentTurnConnectionId != Context.ConnectionId)
+                return;
+
+            string[] board = new string[9];
+            foreach (var move in session.Moves)
+            {
+                board[move.Index] = move.Symbol;
+            }
+
+            if (index < 0 || index >= 9 || !string.IsNullOrEmpty(board[index]))
+                return;
+
+            await _dbService.AddMoveAsync(Context.ConnectionId, index, symbol);
+
+            await Clients.Group(session.RoomCode).SendAsync("ReceiveMove", new { Index = index, Symbol = conn.PlayerSymbol });
+
+            board[index] = conn.PlayerSymbol;
+
+            board[index] = conn.PlayerSymbol;
+            string? winner = CheckWinner(board);
+            if (winner != null)
+            {
+                session.IsGameOver = true;
+                await _dbService.AddHighScoresAsync(conn.ConnectionId, winner);
+                await _dbService.SaveChangesAsync();
+                await Clients.Group(session.RoomCode).SendAsync("GameWon", winner);
+                return;
+            }
+
+            if (board.All(cell => !string.IsNullOrEmpty(cell)))
+            {
+                await _dbService.AddHighScoresAsync(conn.ConnectionId, "DRAW");
+                await Clients.Group(session.RoomCode).SendAsync("GameDraw");
+                return;
+            }
+
+            var nextPlayer = session.Players.FirstOrDefault(p => p.ConnectionId != Context.ConnectionId);
+            if (nextPlayer != null)
+            {
+                session.CurrentTurnConnectionId = nextPlayer.ConnectionId;
+                await _dbService.SaveChangesAsync();
+                await Clients.Group(session.RoomCode).SendAsync("UpdateTurn", new { ConnectionId = nextPlayer.ConnectionId });            
+            }
+        }
+
+        public string? CheckWinner(string[] board)
         {
             int[][] wins = new int[][]
             {
@@ -160,111 +121,91 @@ namespace Showcase.Hubs
             return null;
         }
 
-
-        public async Task GameEnd(string gameRoom)
+        public async Task<string> GetConnectionId()
         {
-
-            var playersInRoom = _shared.connections.Where(e => e.Value.TicTacToeGameRoom == gameRoom).ToList();
-
-            if (_shared.connections.TryGetValue(Context.ConnectionId, out UserConnection conn))
-            {
-                var player = playersInRoom.First().Key.ToString();
-                currentTurn[gameRoom] = player;
-                await Clients.Group(gameRoom).SendAsync("ResetGame");
-                await Clients.Group(conn.TicTacToeGameRoom).SendAsync("UpdateTurn", new { ConnectionId = player });
-            }
-        }
-
-        public async Task RequestReset(string gameRoom)
-        {
-            var players = _shared.connections
-                .Where(c => c.Value.TicTacToeGameRoom == gameRoom)
-                .Select(c => c.Key)
-                .ToList();
-
-            if (players.Count == 2)
-            {
-                var otherPlayer = players.FirstOrDefault(p => p != Context.ConnectionId);
-                if (otherPlayer != null)
-                {
-                    pendingResets[gameRoom] = Context.ConnectionId;
-                    await Clients.Client(otherPlayer).SendAsync("ConfirmResetRequest");
-                }
-            }
-        }
-
-        public async Task ConfirmReset(string gameRoom, bool confirm)
-        {
-            if (confirm && pendingResets.TryGetValue(gameRoom, out var initiator))
-            {
-                // Reset game state
-                gameBoards.Remove(gameRoom);
-                currentTurn[gameRoom] = initiator;
-                pendingResets.Remove(gameRoom);
-
-                await Clients.Group(gameRoom).SendAsync("ResetGame");
-                await Clients.Group(gameRoom).SendAsync("UpdateTurn", new { ConnectionId = initiator });
-            }
-            else
-            {
-                pendingResets.Remove(gameRoom);
-                await Clients.Caller.SendAsync("ResetRequestRejected");
-            }
-        }
-
-        public Task<string> GetConnectionId()
-        {
-            return Task.FromResult(Context.ConnectionId);
-        }
-
-        public async Task RequestRematch(string gameRoom)
-        {
-            var players = _shared.connections
-                .Where(c => c.Value.TicTacToeGameRoom == gameRoom)
-                .Select(c => c.Key)
-                .ToList();
-
-            if (players.Count == 2)
-            {
-                if (!pendingRematches.ContainsKey(gameRoom))
-                {
-                    pendingRematches[gameRoom] = Context.ConnectionId;
-                    var otherPlayer = players.First(p => p != Context.ConnectionId);
-                    await Clients.Client(otherPlayer).SendAsync("RematchRequested");
-                }
-                else if (pendingRematches[gameRoom] != Context.ConnectionId)
-                {
-                    // Both players agreed
-                    gameBoards.Remove(gameRoom);
-                    currentTurn[gameRoom] = pendingRematches[gameRoom];
-                    pendingRematches.Remove(gameRoom);
-
-                    await Clients.Group(gameRoom).SendAsync("RematchAccepted");
-                    await Clients.Group(gameRoom).SendAsync("ResetGame");
-                    await Clients.Group(gameRoom).SendAsync("UpdateTurn",
-                        new { ConnectionId = currentTurn[gameRoom] });
-                }
-            }
+            return await Task.FromResult(Context.ConnectionId);
         }
 
         public override async Task OnDisconnectedAsync(Exception? exception)
         {
-            if (_shared.connections.TryRemove(Context.ConnectionId, out UserConnection conn))
-            {
-                var playersInRoom = _shared.connections
-                    .Where(e => e.Value.TicTacToeGameRoom == conn.TicTacToeGameRoom)
-                    .ToList();
+            var conn = await _dbService.GetConnectionByIdAsync(Context.ConnectionId);
+           // var otherPlayer = conn.GameSession.Players.FirstOrDefault(p => p.ConnectionId != Context.ConnectionId);
 
-                await Clients.Group(conn.TicTacToeGameRoom)
-                    .SendAsync("RedirectToLobby");
-
-                // Cleanup game state
-                gameBoards.Remove(conn.TicTacToeGameRoom);
-                currentTurn.Remove(conn.TicTacToeGameRoom);
-                pendingResets.Remove(conn.TicTacToeGameRoom);
-                pendingRematches.Remove(conn.TicTacToeGameRoom);
-            }
+            await _dbService.RemoveConnectionAsync(Context.ConnectionId);
             await base.OnDisconnectedAsync(exception);
+          //  await Clients.Client(otherPlayer.ConnectionId).SendAsync("RedirectToLobbyOnDisconnect");
         }
+
+        public async Task RequestReset(string roomCode)
+        {
+            var session = await _dbService.GetSessionByRoomCodeAsync(roomCode);
+            if (session == null || session.Players.Count != 2)
+                return;
+
+            var otherPlayer = session.Players.FirstOrDefault(p => p.ConnectionId != Context.ConnectionId);
+            if (otherPlayer != null)
+                await Clients.Client(otherPlayer.ConnectionId).SendAsync("ConfirmResetRequest");
+        }
+
+        public async Task ConfirmReset(string roomCode, bool confirm)
+        {
+            var session = await _dbService.GetSessionByRoomCodeAsync(roomCode);
+            if (session == null)
+                return;
+
+            if (confirm)
+            {
+                var playerX = session.Players.FirstOrDefault(x => x.PlayerSymbol == "x");
+
+                session.Moves.Clear();
+                session.CurrentTurnConnectionId = playerX.ConnectionId;
+                await _dbService.SaveChangesAsync();
+
+                await Clients.Group(roomCode).SendAsync("ResetGame");
+                await Clients.Group(roomCode).SendAsync("UpdateTurn", new { ConnectionId = playerX.ConnectionId });
+            }
+            else
+            {
+                var otherPlayer = session.Players.FirstOrDefault(p => p.ConnectionId != Context.ConnectionId);
+                await Clients.Client(otherPlayer.ConnectionId).SendAsync("ResetRequestRejected");              
+            }
+        }
+        public async Task RequestRematch(string roomCode)
+        {
+            var session = await _dbService.GetSessionByRoomCodeAsync(roomCode);
+            if (session == null || session.Players.Count != 2)
+                return;
+
+            var otherPlayer = session.Players.FirstOrDefault(p => p.ConnectionId != Context.ConnectionId);
+            if (otherPlayer != null)
+                await Clients.Client(otherPlayer.ConnectionId).SendAsync("ConfirmRematchRequest");
+        }
+
+        public async Task ConfirmRematch(string roomCode, bool confirm)
+        {
+            var session = await _dbService.GetSessionByRoomCodeAsync(roomCode);
+            if (session == null)
+                return;
+
+            if (confirm)
+            {
+                var playerX = session.Players.FirstOrDefault(x => x.PlayerSymbol == "x");
+                session.CurrentTurnConnectionId = playerX.ConnectionId;
+                session.Moves.Clear();
+                await _dbService.SaveChangesAsync();
+
+                await Clients.Group(roomCode).SendAsync("ResetGame");
+                await Clients.Group(roomCode).SendAsync("UpdateTurn", new { ConnectionId = playerX.ConnectionId });
+            }
+            else
+            {
+                var otherPlayer = session.Players.FirstOrDefault(p => p.ConnectionId != Context.ConnectionId);
+                await Clients.Client(otherPlayer.ConnectionId).SendAsync("RematchRequestRejected");
+                await Clients.Client(Context.ConnectionId).SendAsync("RedirectToLobby");
+            }
+        }
+
     }
+
 }
+

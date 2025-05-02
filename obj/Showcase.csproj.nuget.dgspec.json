@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\Showcase.csproj": {}
+    "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\Showcase.csproj": {
+    "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\Showcase.csproj",
+        "projectUniqueName": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj",
         "projectName": "Showcase",
-        "projectPath": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\Showcase.csproj",
+        "projectPath": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj",
         "packagesPath": "C:\\Users\\klotwa_Vene\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\obj\\",
+        "outputPath": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,6 +62,10 @@
               "target": "Package",
               "version": "[8.0.3, )"
             },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[9.0.2, )"
@@ -100,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

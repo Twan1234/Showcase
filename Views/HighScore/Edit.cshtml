@@ -1,0 +1,29 @@
+﻿@model Showcase.Models.HighScore
+
+@{
+    ViewData["Title"] = "Edit High Score";
+}
+
+<h2>Edit High Score</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label asp-for="PlayerName"></label>
+        <input asp-for="PlayerName" class="form-control" readonly />
+    </div>
+    <div class="form-group">
+        <label asp-for="Wins"></label>
+        <input asp-for="Wins" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Losses"></label>
+        <input asp-for="Losses" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Draws"></label>
+        <input asp-for="Draws" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-success">Save</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>

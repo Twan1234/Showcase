@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WriTCnxKIADYPkuon6CSF1jlGf1AH6K9NfOZpnhP2yQ=",
+  "Hash": "WuHENucv7fdVCmXcbvBQwMKj++cEk+n143OCmetYHcg=",
   "Source": "Showcase",
   "BasePath": "_content/Showcase",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "Showcase\\wwwroot",
       "Source": "Showcase",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "Pattern": "**"
     }
@@ -1277,10 +1277,10 @@
       "OriginalItemSpec": "C:\\Users\\klotwa_Vene\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.3\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Showcase.styles.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Showcase.styles.css",
       "SourceId": "Showcase",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "Showcase#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -1295,13 +1295,13 @@
       "Integrity": "Msm4rGwq51tkkSHlfHwyohMVeD95EJiJforyjsC8ZYM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Showcase.styles.css"
+      "OriginalItemSpec": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Showcase.styles.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Showcase.bundle.scp.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Showcase.bundle.scp.css",
       "SourceId": "Showcase",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "Showcase#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -1316,13 +1316,13 @@
       "Integrity": "Msm4rGwq51tkkSHlfHwyohMVeD95EJiJforyjsC8ZYM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Showcase.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Showcase.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\contact.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\contact.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "css/contact#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1340,10 +1340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\contact.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\gdpr.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\gdpr.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "css/gdpr#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1361,10 +1361,10 @@
       "OriginalItemSpec": "wwwroot\\css\\gdpr.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\profile.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\profile.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "css/profile#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1382,10 +1382,10 @@
       "OriginalItemSpec": "wwwroot\\css\\profile.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\site.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "css/site#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1403,10 +1403,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\favicon.ico",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -1424,10 +1424,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\Images\\TwanKloekPhoto.JPEG",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\Images\\TwanKloekPhoto.JPEG",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "Images/TwanKloekPhoto#[.{fingerprint}]?.JPEG",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\TwanKloekPhoto.JPEG"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\scripts\\captcha.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\scripts\\captcha.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "js/form-versturen/scripts/captcha#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1466,10 +1466,10 @@
       "OriginalItemSpec": "wwwroot\\js\\form-versturen\\scripts\\captcha.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package.json",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package.json",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "js/form-versturen/server/package#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -1487,10 +1487,10 @@
       "OriginalItemSpec": "wwwroot\\js\\form-versturen\\server\\package.json"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package-lock.json",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package-lock.json",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "js/form-versturen/server/package-lock#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -1508,10 +1508,10 @@
       "OriginalItemSpec": "wwwroot\\js\\form-versturen\\server\\package-lock.json"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\server.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\server.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "js/form-versturen/server/server#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1529,10 +1529,10 @@
       "OriginalItemSpec": "wwwroot\\js\\form-versturen\\server\\server.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\gdpr.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\gdpr.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "js/gdpr#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1550,10 +1550,10 @@
       "OriginalItemSpec": "wwwroot\\js\\gdpr.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\qr.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\qr.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "js/qr#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1564,17 +1564,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "s0azrdfxuc",
-      "Integrity": "fJz98/51hn4HX1TBAbjRMexwY3k3XKowD9r0zIKh7AY=",
+      "Fingerprint": "lx39ecoc04",
+      "Integrity": "14V+kVxYd8aLXk4QxglzUXrP9TCuJoq6SULDPZa2FTg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\qr.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\site.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "js/site#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -1592,10 +1592,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1634,10 +1634,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1655,10 +1655,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1676,10 +1676,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1697,10 +1697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1718,10 +1718,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1739,10 +1739,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1760,10 +1760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1781,10 +1781,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1823,10 +1823,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1844,10 +1844,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1865,10 +1865,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1886,10 +1886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1907,10 +1907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1928,10 +1928,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1949,10 +1949,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1970,10 +1970,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -1991,10 +1991,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2033,10 +2033,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2054,10 +2054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2075,10 +2075,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2096,10 +2096,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2117,10 +2117,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2138,10 +2138,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2180,10 +2180,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2201,10 +2201,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2222,10 +2222,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -2243,10 +2243,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2264,10 +2264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2285,10 +2285,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2306,10 +2306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2327,10 +2327,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2348,10 +2348,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2369,10 +2369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2390,10 +2390,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2411,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2432,10 +2432,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2453,10 +2453,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2474,10 +2474,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2495,10 +2495,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/bootstrap/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -2537,10 +2537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery/dist/jquery#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2558,10 +2558,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2579,10 +2579,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery/dist/jquery.min#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -2600,10 +2600,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2621,10 +2621,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery-validation/dist/additional-methods#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2642,10 +2642,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2663,10 +2663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2684,10 +2684,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2705,10 +2705,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery-validation/LICENSE#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -2726,10 +2726,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2747,10 +2747,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2768,10 +2768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -2789,10 +2789,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\.gitignore",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\.gitignore",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/qrcode/#[.{fingerprint}]?.gitignore",
       "AssetKind": "All",
@@ -2810,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\qrcode\\.gitignore"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\bower.json",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\bower.json",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/qrcode/bower#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -2831,10 +2831,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\qrcode\\bower.json"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.html",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.html",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/qrcode/index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -2852,10 +2852,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\qrcode\\index.html"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.svg",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.svg",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/qrcode/index#[.{fingerprint}]?.svg",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\qrcode\\index.svg"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index-svg.html",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index-svg.html",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/qrcode/index-svg#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -2894,10 +2894,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\qrcode\\index-svg.html"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\jquery.min.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\jquery.min.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/qrcode/jquery.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2915,10 +2915,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\qrcode\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\LICENSE",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\LICENSE",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/qrcode/LICENSE#[.{fingerprint}]?",
       "AssetKind": "All",
@@ -2936,10 +2936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\qrcode\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/qrcode/qrcode#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2957,10 +2957,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\qrcode\\qrcode.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.min.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.min.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/qrcode/qrcode.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -2978,10 +2978,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\qrcode\\qrcode.min.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\README.md",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\README.md",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "lib/qrcode/README#[.{fingerprint}]?.md",
       "AssetKind": "All",
@@ -2999,10 +2999,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\qrcode\\README.md"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\asset-manifest.json",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\asset-manifest.json",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "react/asset-manifest#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -3013,17 +3013,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "fe8t6i5sv3",
-      "Integrity": "OZKM1Kub+5fgkXZmZe9EAd3ENUjy0AXcFxBIZZF6lco=",
+      "Fingerprint": "thu6p8zze2",
+      "Integrity": "4agi9P9Wl1VizFEss9i3O/A1gQ+d7mUfp431514NgyY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\react\\asset-manifest.json"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\favicon.ico",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\favicon.ico",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "react/favicon#[.{fingerprint}]?.ico",
       "AssetKind": "All",
@@ -3041,10 +3041,10 @@
       "OriginalItemSpec": "wwwroot\\react\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\index.html",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\index.html",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "react/index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -3055,17 +3055,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "f4lqm9blqu",
-      "Integrity": "b3dZJEovMFI2IJGmbv0LPRiwq4RDntVAj0AAak/O5R0=",
+      "Fingerprint": "wyzeuakt3i",
+      "Integrity": "mHNrOMi78eYul3fSsEWRlReArDw792RbuBQUr8w2ad0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\react\\index.html"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\logo192.png",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\logo192.png",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "react/logo192#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -3083,10 +3083,10 @@
       "OriginalItemSpec": "wwwroot\\react\\logo192.png"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\logo512.png",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\logo512.png",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "react/logo512#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -3104,10 +3104,10 @@
       "OriginalItemSpec": "wwwroot\\react\\logo512.png"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\manifest.json",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\manifest.json",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "react/manifest#[.{fingerprint}]?.json",
       "AssetKind": "All",
@@ -3125,10 +3125,10 @@
       "OriginalItemSpec": "wwwroot\\react\\manifest.json"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\robots.txt",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\robots.txt",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "react/robots#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -3146,10 +3146,10 @@
       "OriginalItemSpec": "wwwroot\\react\\robots.txt"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "react/static/css/main.56a1ca81#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -3167,10 +3167,10 @@
       "OriginalItemSpec": "wwwroot\\react\\static\\css\\main.56a1ca81.css"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "react/static/css/main.56a1ca81.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -3188,10 +3188,10 @@
       "OriginalItemSpec": "wwwroot\\react\\static\\css\\main.56a1ca81.css.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "react/static/js/453.cbe581c7.chunk#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -3209,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
       "RelativePath": "react/static/js/453.cbe581c7.chunk.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -3230,12 +3230,12 @@
       "OriginalItemSpec": "wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.3a3ee708.js",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.5fd64458.js",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
-      "RelativePath": "react/static/js/main.3a3ee708#[.{fingerprint}]?.js",
+      "RelativePath": "react/static/js/main.5fd64458#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3244,19 +3244,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "mbazlb4a9j",
-      "Integrity": "/t+nY+Q0tzTOWHYUWa1ANC9i72oMbClRIImJjoLz/EE=",
+      "Fingerprint": "cb8iqznf7u",
+      "Integrity": "mPBau5AwtGt5vYLpab/hQKFdz3AO32/PoeQZgTcKcw4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\react\\static\\js\\main.3a3ee708.js"
+      "OriginalItemSpec": "wwwroot\\react\\static\\js\\main.5fd64458.js"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.3a3ee708.js.LICENSE.txt",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.5fd64458.js.LICENSE.txt",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
-      "RelativePath": "react/static/js/main.3a3ee708.js.LICENSE#[.{fingerprint}]?.txt",
+      "RelativePath": "react/static/js/main.5fd64458.js.LICENSE#[.{fingerprint}]?.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3269,15 +3269,15 @@
       "Integrity": "L94Q/tqp66wZX/SE3bCJafXQSrKEumUACzy/CZJwNkA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\react\\static\\js\\main.3a3ee708.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\react\\static\\js\\main.5fd64458.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.3a3ee708.js.map",
+      "Identity": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.5fd64458.js.map",
       "SourceId": "Showcase",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\",
       "BasePath": "_content/Showcase",
-      "RelativePath": "react/static/js/main.3a3ee708.js#[.{fingerprint}]?.map",
+      "RelativePath": "react/static/js/main.5fd64458.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -3286,17 +3286,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "iwjf30sa3n",
-      "Integrity": "gjUras4atKQW6lUZ95iJ4iSGyvaYT9CIRboYEfKlPpM=",
+      "Fingerprint": "gu2ctgy396",
+      "Integrity": "aPa1agVNFW51S+gYvdljNVy5KxTyaUKffq5euYK71zo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\react\\static\\js\\main.3a3ee708.js.map"
+      "OriginalItemSpec": "wwwroot\\react\\static\\js\\main.5fd64458.js.map"
     }
   ],
   "Endpoints": [
     {
       "Route": "css/contact.3jtqfm8ul9.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\contact.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\contact.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3341,7 +3341,7 @@
     },
     {
       "Route": "css/contact.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\contact.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\contact.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3378,7 +3378,7 @@
     },
     {
       "Route": "css/gdpr.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\gdpr.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\gdpr.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3415,7 +3415,7 @@
     },
     {
       "Route": "css/gdpr.d80hw5od5v.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\gdpr.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\gdpr.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3460,7 +3460,7 @@
     },
     {
       "Route": "css/profile.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\profile.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\profile.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3497,7 +3497,7 @@
     },
     {
       "Route": "css/profile.sdqkgr40ue.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\profile.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\profile.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3542,7 +3542,7 @@
     },
     {
       "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3579,7 +3579,7 @@
     },
     {
       "Route": "css/site.dbiwwk0lvk.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\css\\site.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3624,7 +3624,7 @@
     },
     {
       "Route": "favicon.61n19gt1b8.ico",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3669,7 +3669,7 @@
     },
     {
       "Route": "favicon.ico",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\favicon.ico",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5926,7 +5926,7 @@
     },
     {
       "Route": "Images/TwanKloekPhoto.JPEG",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\Images\\TwanKloekPhoto.JPEG",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\Images\\TwanKloekPhoto.JPEG",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5963,7 +5963,7 @@
     },
     {
       "Route": "Images/TwanKloekPhoto.wxzamhjsy2.JPEG",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\Images\\TwanKloekPhoto.JPEG",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\Images\\TwanKloekPhoto.JPEG",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6008,7 +6008,7 @@
     },
     {
       "Route": "js/form-versturen/scripts/captcha.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\scripts\\captcha.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\scripts\\captcha.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6045,7 +6045,7 @@
     },
     {
       "Route": "js/form-versturen/scripts/captcha.knwui0cg29.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\scripts\\captcha.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\scripts\\captcha.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6090,7 +6090,7 @@
     },
     {
       "Route": "js/form-versturen/server/package.0jfrbxrlt0.json",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package.json",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6135,7 +6135,7 @@
     },
     {
       "Route": "js/form-versturen/server/package.json",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package.json",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6172,7 +6172,7 @@
     },
     {
       "Route": "js/form-versturen/server/package-lock.c4twrclsrf.json",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package-lock.json",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package-lock.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6217,7 +6217,7 @@
     },
     {
       "Route": "js/form-versturen/server/package-lock.json",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package-lock.json",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\package-lock.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6254,7 +6254,7 @@
     },
     {
       "Route": "js/form-versturen/server/server.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\server.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\server.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6291,7 +6291,7 @@
     },
     {
       "Route": "js/form-versturen/server/server.sfxhbu1ax2.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\server.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\form-versturen\\server\\server.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6336,7 +6336,7 @@
     },
     {
       "Route": "js/gdpr.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\gdpr.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\gdpr.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6373,7 +6373,7 @@
     },
     {
       "Route": "js/gdpr.pcslefmwot.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\gdpr.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\gdpr.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6418,7 +6418,7 @@
     },
     {
       "Route": "js/qr.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\qr.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\qr.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6427,7 +6427,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "391"
+          "Value": "492"
         },
         {
           "Name": "Content-Type",
@@ -6435,11 +6435,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fJz98/51hn4HX1TBAbjRMexwY3k3XKowD9r0zIKh7AY=\""
+          "Value": "\"14V+kVxYd8aLXk4QxglzUXrP9TCuJoq6SULDPZa2FTg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Mar 2024 09:37:57 GMT"
+          "Value": "Fri, 21 Mar 2025 13:27:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6449,13 +6449,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-fJz98/51hn4HX1TBAbjRMexwY3k3XKowD9r0zIKh7AY="
+          "Value": "sha256-14V+kVxYd8aLXk4QxglzUXrP9TCuJoq6SULDPZa2FTg="
         }
       ]
     },
     {
-      "Route": "js/qr.s0azrdfxuc.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\qr.js",
+      "Route": "js/qr.lx39ecoc04.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\qr.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6464,7 +6464,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "391"
+          "Value": "492"
         },
         {
           "Name": "Content-Type",
@@ -6472,11 +6472,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"fJz98/51hn4HX1TBAbjRMexwY3k3XKowD9r0zIKh7AY=\""
+          "Value": "\"14V+kVxYd8aLXk4QxglzUXrP9TCuJoq6SULDPZa2FTg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 19 Mar 2024 09:37:57 GMT"
+          "Value": "Fri, 21 Mar 2025 13:27:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6486,7 +6486,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "s0azrdfxuc"
+          "Value": "lx39ecoc04"
         },
         {
           "Name": "label",
@@ -6494,13 +6494,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-fJz98/51hn4HX1TBAbjRMexwY3k3XKowD9r0zIKh7AY="
+          "Value": "sha256-14V+kVxYd8aLXk4QxglzUXrP9TCuJoq6SULDPZa2FTg="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6537,7 +6537,7 @@
     },
     {
       "Route": "js/site.xtxxf3hu2r.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\js\\site.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6582,7 +6582,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6619,7 +6619,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.73kdqttayv.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6664,7 +6664,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6701,7 +6701,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.6gzpyzhau4.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6746,7 +6746,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6783,7 +6783,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.8inm30yfxf.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6828,7 +6828,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6865,7 +6865,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.ozu22stjof.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6910,7 +6910,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6947,7 +6947,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.4gxs3k148c.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6992,7 +6992,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7029,7 +7029,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.gjcw7pocpk.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7074,7 +7074,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.6l4ir0ityv.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7119,7 +7119,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7156,7 +7156,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.fctod5rc9n.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7201,7 +7201,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7238,7 +7238,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7275,7 +7275,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7312,7 +7312,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.st1cbwfwo5.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7357,7 +7357,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.5p029spbuu.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7402,7 +7402,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7439,7 +7439,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.5vj65cig9w.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7484,7 +7484,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7521,7 +7521,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.nakmwdwsxp.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7566,7 +7566,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7603,7 +7603,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.2q4vfeazbq.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7648,7 +7648,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7685,7 +7685,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.e6q6xbwqzk.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7730,7 +7730,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7767,7 +7767,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7804,7 +7804,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.o371a8zbv2.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7849,7 +7849,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.dy6jgresuo.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7894,7 +7894,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7931,7 +7931,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.jeal3x0ldm.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -7976,7 +7976,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8013,7 +8013,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8050,7 +8050,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8087,7 +8087,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.okkk44j0xs.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8132,7 +8132,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.z7kmom2977.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8177,7 +8177,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.mk8rdyw69w.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8222,7 +8222,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.97yrjpyf9r.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8267,7 +8267,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8304,7 +8304,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.cwzlr5n8x4.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8349,7 +8349,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8386,7 +8386,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8423,7 +8423,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8460,7 +8460,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.wmug9u23qg.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8505,7 +8505,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.y53cy5s2zj.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8550,7 +8550,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8587,7 +8587,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.j75batdsum.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8632,7 +8632,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8669,7 +8669,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.2yn17lgxub.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8714,7 +8714,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8751,7 +8751,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8788,7 +8788,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.vy0bq9ydhf.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8833,7 +8833,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8870,7 +8870,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.ab1c3rmv7g.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8915,7 +8915,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8952,7 +8952,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8989,7 +8989,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.56d2bn4wt9.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9034,7 +9034,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9071,7 +9071,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.ik6i2hrs65.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9116,7 +9116,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.ophe14yye5.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9161,7 +9161,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.z9shlbduue.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9206,7 +9206,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.1piudyfv7h.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9251,7 +9251,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.f6zq8v6eb3.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9296,7 +9296,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9333,7 +9333,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.kbynt5jhd9.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9378,7 +9378,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9415,7 +9415,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.89qbw8ngem.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9460,7 +9460,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9497,7 +9497,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.c2nslu3uf3.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9542,7 +9542,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9579,7 +9579,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9616,7 +9616,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.2lgwfvgpvi.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9661,7 +9661,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9698,7 +9698,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jqwzsa9uv6.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9743,7 +9743,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9780,7 +9780,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9817,7 +9817,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.wsezl0heh6.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9862,7 +9862,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.n5w6o92d9r.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9907,7 +9907,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9944,7 +9944,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.6ukhryfubh.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -9989,7 +9989,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10026,7 +10026,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4908xmbfjr.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10071,7 +10071,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10108,7 +10108,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10145,7 +10145,7 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.u33ctipx7g.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10190,7 +10190,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10227,7 +10227,7 @@
     },
     {
       "Route": "lib/bootstrap/LICENSE.81b7ukuj9c",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\bootstrap\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10272,7 +10272,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.7s2n0ol71w.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10317,7 +10317,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10354,7 +10354,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.5pze98is44.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10399,7 +10399,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.ehgnz7f14e.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10444,7 +10444,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10481,7 +10481,7 @@
     },
     {
       "Route": "lib/jquery/dist/jquery.min.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10518,7 +10518,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.mlv21k5csn.txt",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10563,7 +10563,7 @@
     },
     {
       "Route": "lib/jquery/LICENSE.txt",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10600,7 +10600,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.ay5nd8zt9x.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10645,7 +10645,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10682,7 +10682,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.9oaff4kq20.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10727,7 +10727,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/additional-methods.min.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10764,7 +10764,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.6d0lkjaslc.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10809,7 +10809,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10846,7 +10846,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10883,7 +10883,7 @@
     },
     {
       "Route": "lib/jquery-validation/dist/jquery.validate.min.l1zq2mitth.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10928,7 +10928,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.md",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10965,7 +10965,7 @@
     },
     {
       "Route": "lib/jquery-validation/LICENSE.x0q3zqp4vz.md",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11010,7 +11010,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.03hjc8e09r.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11055,7 +11055,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11092,7 +11092,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.48y08845bh.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11137,7 +11137,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11174,7 +11174,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.356vix0kms.txt",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11219,7 +11219,7 @@
     },
     {
       "Route": "lib/jquery-validation-unobtrusive/LICENSE.txt",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11256,7 +11256,7 @@
     },
     {
       "Route": "lib/qrcode/.12wk1fcrfm.gitignore",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\.gitignore",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\.gitignore",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11301,7 +11301,7 @@
     },
     {
       "Route": "lib/qrcode/.gitignore",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\.gitignore",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\.gitignore",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11338,7 +11338,7 @@
     },
     {
       "Route": "lib/qrcode/bower.24f822nkjh.json",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\bower.json",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\bower.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11383,7 +11383,7 @@
     },
     {
       "Route": "lib/qrcode/bower.json",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\bower.json",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\bower.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11420,7 +11420,7 @@
     },
     {
       "Route": "lib/qrcode/index.html",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.html",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11457,7 +11457,7 @@
     },
     {
       "Route": "lib/qrcode/index.svg",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.svg",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11494,7 +11494,7 @@
     },
     {
       "Route": "lib/qrcode/index.vmhozwogkt.svg",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.svg",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.svg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11539,7 +11539,7 @@
     },
     {
       "Route": "lib/qrcode/index.ynm3goz9g8.html",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.html",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11584,7 +11584,7 @@
     },
     {
       "Route": "lib/qrcode/index-svg.4vov96q1a3.html",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index-svg.html",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index-svg.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11629,7 +11629,7 @@
     },
     {
       "Route": "lib/qrcode/index-svg.html",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index-svg.html",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\index-svg.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11666,7 +11666,7 @@
     },
     {
       "Route": "lib/qrcode/jquery.min.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\jquery.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11703,7 +11703,7 @@
     },
     {
       "Route": "lib/qrcode/jquery.min.r9032d1hst.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\jquery.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\jquery.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11748,7 +11748,7 @@
     },
     {
       "Route": "lib/qrcode/LICENSE",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\LICENSE",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11785,7 +11785,7 @@
     },
     {
       "Route": "lib/qrcode/LICENSE.2yyjmxv6ia",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\LICENSE",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\LICENSE",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11830,7 +11830,7 @@
     },
     {
       "Route": "lib/qrcode/qrcode.28yq9sd61h.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11875,7 +11875,7 @@
     },
     {
       "Route": "lib/qrcode/qrcode.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11912,7 +11912,7 @@
     },
     {
       "Route": "lib/qrcode/qrcode.min.h5gslb8p3n.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11957,7 +11957,7 @@
     },
     {
       "Route": "lib/qrcode/qrcode.min.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.min.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\qrcode.min.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -11994,7 +11994,7 @@
     },
     {
       "Route": "lib/qrcode/README.ey55u38u6e.md",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\README.md",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12039,7 +12039,7 @@
     },
     {
       "Route": "lib/qrcode/README.md",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\README.md",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\lib\\qrcode\\README.md",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12075,53 +12075,8 @@
       ]
     },
     {
-      "Route": "react/asset-manifest.fe8t6i5sv3.json",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\asset-manifest.json",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "517"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/json"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OZKM1Kub+5fgkXZmZe9EAd3ENUjy0AXcFxBIZZF6lco=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "fe8t6i5sv3"
-        },
-        {
-          "Name": "label",
-          "Value": "react/asset-manifest.json"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-OZKM1Kub+5fgkXZmZe9EAd3ENUjy0AXcFxBIZZF6lco="
-        }
-      ]
-    },
-    {
       "Route": "react/asset-manifest.json",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\asset-manifest.json",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\asset-manifest.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12138,11 +12093,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OZKM1Kub+5fgkXZmZe9EAd3ENUjy0AXcFxBIZZF6lco=\""
+          "Value": "\"4agi9P9Wl1VizFEss9i3O/A1gQ+d7mUfp431514NgyY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12152,13 +12107,58 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OZKM1Kub+5fgkXZmZe9EAd3ENUjy0AXcFxBIZZF6lco="
+          "Value": "sha256-4agi9P9Wl1VizFEss9i3O/A1gQ+d7mUfp431514NgyY="
+        }
+      ]
+    },
+    {
+      "Route": "react/asset-manifest.thu6p8zze2.json",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\asset-manifest.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "517"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"4agi9P9Wl1VizFEss9i3O/A1gQ+d7mUfp431514NgyY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "thu6p8zze2"
+        },
+        {
+          "Name": "label",
+          "Value": "react/asset-manifest.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-4agi9P9Wl1VizFEss9i3O/A1gQ+d7mUfp431514NgyY="
         }
       ]
     },
     {
       "Route": "react/favicon.1f2oqlqaa3.ico",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\favicon.ico",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12203,7 +12203,7 @@
     },
     {
       "Route": "react/favicon.ico",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\favicon.ico",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\favicon.ico",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12239,53 +12239,8 @@
       ]
     },
     {
-      "Route": "react/index.f4lqm9blqu.html",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\index.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "644"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"b3dZJEovMFI2IJGmbv0LPRiwq4RDntVAj0AAak/O5R0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "f4lqm9blqu"
-        },
-        {
-          "Name": "label",
-          "Value": "react/index.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-b3dZJEovMFI2IJGmbv0LPRiwq4RDntVAj0AAak/O5R0="
-        }
-      ]
-    },
-    {
       "Route": "react/index.html",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\index.html",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12302,11 +12257,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"b3dZJEovMFI2IJGmbv0LPRiwq4RDntVAj0AAak/O5R0=\""
+          "Value": "\"mHNrOMi78eYul3fSsEWRlReArDw792RbuBQUr8w2ad0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12316,13 +12271,58 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-b3dZJEovMFI2IJGmbv0LPRiwq4RDntVAj0AAak/O5R0="
+          "Value": "sha256-mHNrOMi78eYul3fSsEWRlReArDw792RbuBQUr8w2ad0="
+        }
+      ]
+    },
+    {
+      "Route": "react/index.wyzeuakt3i.html",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mHNrOMi78eYul3fSsEWRlReArDw792RbuBQUr8w2ad0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wyzeuakt3i"
+        },
+        {
+          "Name": "label",
+          "Value": "react/index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mHNrOMi78eYul3fSsEWRlReArDw792RbuBQUr8w2ad0="
         }
       ]
     },
     {
       "Route": "react/logo192.png",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\logo192.png",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\logo192.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12359,7 +12359,7 @@
     },
     {
       "Route": "react/logo192.xr54by9dn2.png",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\logo192.png",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\logo192.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12404,7 +12404,7 @@
     },
     {
       "Route": "react/logo512.2377xp85ga.png",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\logo512.png",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\logo512.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12449,7 +12449,7 @@
     },
     {
       "Route": "react/logo512.png",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\logo512.png",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\logo512.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12486,7 +12486,7 @@
     },
     {
       "Route": "react/manifest.4bysstsvp2.json",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\manifest.json",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\manifest.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12531,7 +12531,7 @@
     },
     {
       "Route": "react/manifest.json",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\manifest.json",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\manifest.json",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12568,7 +12568,7 @@
     },
     {
       "Route": "react/robots.sl60c43r8o.txt",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\robots.txt",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\robots.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12613,7 +12613,7 @@
     },
     {
       "Route": "react/robots.txt",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\robots.txt",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\robots.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12650,7 +12650,7 @@
     },
     {
       "Route": "react/static/css/main.56a1ca81.1qlgv6zhau.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12671,7 +12671,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12695,7 +12695,7 @@
     },
     {
       "Route": "react/static/css/main.56a1ca81.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12716,7 +12716,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12732,7 +12732,7 @@
     },
     {
       "Route": "react/static/css/main.56a1ca81.css.2aq186bhks.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12753,7 +12753,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12777,7 +12777,7 @@
     },
     {
       "Route": "react/static/css/main.56a1ca81.css.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\css\\main.56a1ca81.css.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12798,7 +12798,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12814,7 +12814,7 @@
     },
     {
       "Route": "react/static/js/453.cbe581c7.chunk.gyg22y2i57.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12835,7 +12835,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12859,7 +12859,7 @@
     },
     {
       "Route": "react/static/js/453.cbe581c7.chunk.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12880,7 +12880,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12896,7 +12896,7 @@
     },
     {
       "Route": "react/static/js/453.cbe581c7.chunk.js.6zk3wibpw9.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12917,7 +12917,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12941,7 +12941,7 @@
     },
     {
       "Route": "react/static/js/453.cbe581c7.chunk.js.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\453.cbe581c7.chunk.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12962,7 +12962,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12977,8 +12977,8 @@
       ]
     },
     {
-      "Route": "react/static/js/main.3a3ee708.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.3a3ee708.js",
+      "Route": "react/static/js/main.5fd64458.cb8iqznf7u.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.5fd64458.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -12987,7 +12987,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "284572"
+          "Value": "285090"
         },
         {
           "Name": "Content-Type",
@@ -12995,48 +12995,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"/t+nY+Q0tzTOWHYUWa1ANC9i72oMbClRIImJjoLz/EE=\""
+          "Value": "\"mPBau5AwtGt5vYLpab/hQKFdz3AO32/PoeQZgTcKcw4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-/t+nY+Q0tzTOWHYUWa1ANC9i72oMbClRIImJjoLz/EE="
-        }
-      ]
-    },
-    {
-      "Route": "react/static/js/main.3a3ee708.js.iwjf30sa3n.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.3a3ee708.js.map",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1320887"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/plain"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"gjUras4atKQW6lUZ95iJ4iSGyvaYT9CIRboYEfKlPpM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13046,21 +13009,103 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "iwjf30sa3n"
+          "Value": "cb8iqznf7u"
         },
         {
           "Name": "label",
-          "Value": "react/static/js/main.3a3ee708.js.map"
+          "Value": "react/static/js/main.5fd64458.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gjUras4atKQW6lUZ95iJ4iSGyvaYT9CIRboYEfKlPpM="
+          "Value": "sha256-mPBau5AwtGt5vYLpab/hQKFdz3AO32/PoeQZgTcKcw4="
         }
       ]
     },
     {
-      "Route": "react/static/js/main.3a3ee708.js.LICENSE.txt",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.3a3ee708.js.LICENSE.txt",
+      "Route": "react/static/js/main.5fd64458.js",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.5fd64458.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285090"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mPBau5AwtGt5vYLpab/hQKFdz3AO32/PoeQZgTcKcw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mPBau5AwtGt5vYLpab/hQKFdz3AO32/PoeQZgTcKcw4="
+        }
+      ]
+    },
+    {
+      "Route": "react/static/js/main.5fd64458.js.gu2ctgy396.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.5fd64458.js.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1322206"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"aPa1agVNFW51S+gYvdljNVy5KxTyaUKffq5euYK71zo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gu2ctgy396"
+        },
+        {
+          "Name": "label",
+          "Value": "react/static/js/main.5fd64458.js.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-aPa1agVNFW51S+gYvdljNVy5KxTyaUKffq5euYK71zo="
+        }
+      ]
+    },
+    {
+      "Route": "react/static/js/main.5fd64458.js.LICENSE.txt",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.5fd64458.js.LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13081,7 +13126,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13096,8 +13141,8 @@
       ]
     },
     {
-      "Route": "react/static/js/main.3a3ee708.js.LICENSE.z79a9mt08r.txt",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.3a3ee708.js.LICENSE.txt",
+      "Route": "react/static/js/main.5fd64458.js.LICENSE.z79a9mt08r.txt",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.5fd64458.js.LICENSE.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13118,7 +13163,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13132,7 +13177,7 @@
         },
         {
           "Name": "label",
-          "Value": "react/static/js/main.3a3ee708.js.LICENSE.txt"
+          "Value": "react/static/js/main.5fd64458.js.LICENSE.txt"
         },
         {
           "Name": "integrity",
@@ -13141,8 +13186,8 @@
       ]
     },
     {
-      "Route": "react/static/js/main.3a3ee708.js.map",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.3a3ee708.js.map",
+      "Route": "react/static/js/main.5fd64458.js.map",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.5fd64458.js.map",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13151,7 +13196,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1320887"
+          "Value": "1322206"
         },
         {
           "Name": "Content-Type",
@@ -13159,11 +13204,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gjUras4atKQW6lUZ95iJ4iSGyvaYT9CIRboYEfKlPpM=\""
+          "Value": "\"aPa1agVNFW51S+gYvdljNVy5KxTyaUKffq5euYK71zo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
+          "Value": "Thu, 10 Apr 2025 10:58:41 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13173,58 +13218,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gjUras4atKQW6lUZ95iJ4iSGyvaYT9CIRboYEfKlPpM="
-        }
-      ]
-    },
-    {
-      "Route": "react/static/js/main.3a3ee708.mbazlb4a9j.js",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\wwwroot\\react\\static\\js\\main.3a3ee708.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "284572"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"/t+nY+Q0tzTOWHYUWa1ANC9i72oMbClRIImJjoLz/EE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 19:30:54 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "mbazlb4a9j"
-        },
-        {
-          "Name": "label",
-          "Value": "react/static/js/main.3a3ee708.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-/t+nY+Q0tzTOWHYUWa1ANC9i72oMbClRIImJjoLz/EE="
+          "Value": "sha256-aPa1agVNFW51S+gYvdljNVy5KxTyaUKffq5euYK71zo="
         }
       ]
     },
     {
       "Route": "Showcase.6j8sf00dr8.bundle.scp.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Showcase.bundle.scp.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Showcase.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13245,7 +13245,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 14:40:14 GMT"
+          "Value": "Fri, 02 May 2025 08:59:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13269,7 +13269,7 @@
     },
     {
       "Route": "Showcase.6j8sf00dr8.styles.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Showcase.styles.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Showcase.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13290,7 +13290,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 14:40:14 GMT"
+          "Value": "Fri, 02 May 2025 08:59:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13314,7 +13314,7 @@
     },
     {
       "Route": "Showcase.bundle.scp.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Showcase.bundle.scp.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Showcase.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13335,7 +13335,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 14:40:14 GMT"
+          "Value": "Fri, 02 May 2025 08:59:56 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -13351,7 +13351,7 @@
     },
     {
       "Route": "Showcase.styles.css",
-      "AssetFile": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Showcase.styles.css",
+      "AssetFile": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Showcase.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -13372,7 +13372,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 20 Mar 2025 14:40:14 GMT"
+          "Value": "Fri, 02 May 2025 08:59:56 GMT"
         },
         {
           "Name": "Cache-Control",

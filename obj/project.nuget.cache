@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "in6pECnKP3k=",
+  "dgSpecHash": "E1bfaYss98k=",
   "success": true,
-  "projectFilePath": "C:\\Users\\klotwa_Vene\\Source\\Repos\\Twan1234\\Showcase\\Showcase.csproj",
+  "projectFilePath": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -92,6 +92,7 @@
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.2\\microsoft.entityframeworkcore.abstractions.9.0.2.nupkg.sha512",
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\9.0.2\\microsoft.entityframeworkcore.analyzers.9.0.2.nupkg.sha512",
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\microsoft.entityframeworkcore.design\\9.0.2\\microsoft.entityframeworkcore.design.9.0.2.nupkg.sha512",
+    "C:\\Users\\klotwa_Vene\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\9.0.2\\microsoft.entityframeworkcore.inmemory.9.0.2.nupkg.sha512",
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.2\\microsoft.entityframeworkcore.relational.9.0.2.nupkg.sha512",
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\9.0.2\\microsoft.entityframeworkcore.sqlite.9.0.2.nupkg.sha512",
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite.core\\9.0.2\\microsoft.entityframeworkcore.sqlite.core.9.0.2.nupkg.sha512",
