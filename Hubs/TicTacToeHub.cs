@@ -186,7 +186,8 @@ namespace Showcase.Hubs
 
             if (confirm)
             {
-                var playerX = session.Players.FirstOrDefault(x => x.PlayerSymbol == "x");
+                var playerX = session.Players.FirstOrDefault(x =>
+                    string.Equals(x.PlayerSymbol, "x", StringComparison.OrdinalIgnoreCase));
                 session.CurrentTurnConnectionId = playerX.ConnectionId;
                 session.Moves.Clear();
                 await _dbService.SaveChangesAsync();

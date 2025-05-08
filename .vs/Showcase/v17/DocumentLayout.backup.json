@@ -6,12 +6,35 @@
       "AbsoluteMoniker": "D:0:0:{860993B6-E41B-43CB-9D0A-6766121E5862}|..\\Showcase.Tests\\Showcase.Tests.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase.tests\\tictactoehubtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{860993B6-E41B-43CB-9D0A-6766121E5862}|..\\Showcase.Tests\\Showcase.Tests.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase.tests\\tictactoedbservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\hubs\\tictactoehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:hubs\\tictactoehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\dataservice\\tictactoedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:dataservice\\tictactoedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\showcase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:showcase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\controllers\\highscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:controllers\\highscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\views\\highscore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:views\\highscore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\views\\highscore\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:views\\highscore\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\dataservice\\itictactoedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,10 +50,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\controllers\\tictactoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:controllers\\tictactoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\showcase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:showcase.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -57,14 +76,6 @@
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\views\\highscore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:views\\highscore\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\views\\highscore\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:views\\highscore\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\views\\highscore\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:views\\highscore\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -81,20 +92,12 @@
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\controllers\\highscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:controllers\\highscorecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:controllers\\contactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\users\\klotwa_vene\\source\\repos\\twan1234\\showcase\\migrations\\20250226142411_init.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -112,8 +115,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 352,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicTacToeHubTests.cs",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase.Tests\\TicTacToeHubTests.cs",
+              "RelativeDocumentMoniker": "..\\Showcase.Tests\\TicTacToeHubTests.cs",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase.Tests\\TicTacToeHubTests.cs*",
+              "RelativeToolTip": "..\\Showcase.Tests\\TicTacToeHubTests.cs*",
+              "ViewState": "AgIAAFQBAAAAAAAAAAAswFsBAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:55:15.506Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
@@ -152,13 +168,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicTacToeDbServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase.Tests\\TicTacToeDbServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\Showcase.Tests\\TicTacToeDbServiceTests.cs",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase.Tests\\TicTacToeDbServiceTests.cs",
+              "RelativeToolTip": "..\\Showcase.Tests\\TicTacToeDbServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:56:58.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TicTacToeHub.cs",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Hubs\\TicTacToeHub.cs",
+              "RelativeDocumentMoniker": "Hubs\\TicTacToeHub.cs",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Hubs\\TicTacToeHub.cs",
+              "RelativeToolTip": "Hubs\\TicTacToeHub.cs",
+              "ViewState": "AgIAAJAAAAAAAAAAAAAAAJIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T09:55:37.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TicTacToeDbService.cs",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\DataService\\TicTacToeDbService.cs",
               "RelativeDocumentMoniker": "DataService\\TicTacToeDbService.cs",
               "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\DataService\\TicTacToeDbService.cs",
               "RelativeToolTip": "DataService\\TicTacToeDbService.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAYwCYAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAYwHUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T08:42:56.984Z",
               "EditorCaption": ""
@@ -166,43 +208,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Showcase.Tests.csproj",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase.Tests\\Showcase.Tests.csproj",
-              "RelativeDocumentMoniker": "..\\Showcase.Tests\\Showcase.Tests.csproj",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase.Tests\\Showcase.Tests.csproj",
-              "RelativeToolTip": "..\\Showcase.Tests\\Showcase.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Showcase.csproj",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj",
+              "RelativeDocumentMoniker": "Showcase.csproj",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj",
+              "RelativeToolTip": "Showcase.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-02T08:22:02.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ITicTacToeDbService.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\DataService\\ITicTacToeDbService.cs",
-              "RelativeDocumentMoniker": "DataService\\ITicTacToeDbService.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\DataService\\ITicTacToeDbService.cs",
-              "RelativeToolTip": "DataService\\ITicTacToeDbService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-02T08:24:46.988Z",
+              "WhenOpened": "2025-04-27T08:32:09.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "TicTacToeDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Data\\TicTacToeDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\TicTacToeDbContext.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Data\\TicTacToeDbContext.cs",
-              "RelativeToolTip": "Data\\TicTacToeDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Title": "HighScoreController.cs",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Controllers\\HighScoreController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HighScoreController.cs",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Controllers\\HighScoreController.cs",
+              "RelativeToolTip": "Controllers\\HighScoreController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAUwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T08:22:56.845Z"
+              "WhenOpened": "2025-04-12T13:10:53.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 12,
               "Title": "TicTacToeController.cs",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Controllers\\TicTacToeController.cs",
               "RelativeDocumentMoniker": "Controllers\\TicTacToeController.cs",
@@ -214,19 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Showcase.csproj",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj",
-              "RelativeDocumentMoniker": "Showcase.csproj",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj",
-              "RelativeToolTip": "Showcase.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-04-27T08:32:09.22Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 14,
               "Title": "ScaffoldingReadMe.txt",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\ScaffoldingReadMe.txt",
               "RelativeDocumentMoniker": "ScaffoldingReadMe.txt",
@@ -239,6 +258,82 @@
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T13:14:18.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\HighScore\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\HighScore\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\HighScore\\Edit.cshtml",
+              "RelativeToolTip": "Views\\HighScore\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-14T09:01:59.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\HighScore\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\HighScore\\Index.cshtml",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\HighScore\\Index.cshtml",
+              "RelativeToolTip": "Views\\HighScore\\Index.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwBYAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-12T13:10:40.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TicTacToeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Data\\TicTacToeDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\TicTacToeDbContext.cs",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Data\\TicTacToeDbContext.cs",
+              "RelativeToolTip": "Data\\TicTacToeDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T08:22:56.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ITicTacToeDbService.cs",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\DataService\\ITicTacToeDbService.cs",
+              "RelativeDocumentMoniker": "DataService\\ITicTacToeDbService.cs",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\DataService\\ITicTacToeDbService.cs",
+              "RelativeToolTip": "DataService\\ITicTacToeDbService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T08:24:46.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Showcase.Tests.csproj",
+              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase.Tests\\Showcase.Tests.csproj",
+              "RelativeDocumentMoniker": "..\\Showcase.Tests\\Showcase.Tests.csproj",
+              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase.Tests\\Showcase.Tests.csproj",
+              "RelativeToolTip": "..\\Showcase.Tests\\Showcase.Tests.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-02T08:22:02.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -250,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 15,
               "Title": "Privacy.cshtml",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
@@ -262,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\HighScore\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\HighScore\\Delete.cshtml",
@@ -274,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
@@ -286,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -298,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 17,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Profile\\Index.cshtml",
@@ -310,19 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\HighScore\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\HighScore\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\HighScore\\Edit.cshtml",
-              "RelativeToolTip": "Views\\HighScore\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-14T09:01:59.394Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\TicTacToe\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\TicTacToe\\Index.cshtml",
@@ -334,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "Controllers\\ProfileController.cs",
@@ -346,19 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\HighScore\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\HighScore\\Index.cshtml",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\HighScore\\Index.cshtml",
-              "RelativeToolTip": "Views\\HighScore\\Index.cshtml",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAmwCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-12T13:10:40.412Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -370,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ContactController.cs",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Controllers\\ContactController.cs",
               "RelativeDocumentMoniker": "Controllers\\ContactController.cs",
@@ -382,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
@@ -394,31 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAmwGsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T13:14:18.177Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "HighScoreController.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Controllers\\HighScoreController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HighScoreController.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Controllers\\HighScoreController.cs",
-              "RelativeToolTip": "Controllers\\HighScoreController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAUwEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T13:10:53.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "20250226142411_init.Designer.cs",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Migrations\\20250226142411_init.Designer.cs",
               "RelativeDocumentMoniker": "Migrations\\20250226142411_init.Designer.cs",
@@ -430,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "20250412090629_TicTacToe.cs",
               "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Migrations\\TicTacToeDb\\20250412090629_TicTacToe.cs",
               "RelativeDocumentMoniker": "Migrations\\TicTacToeDb\\20250412090629_TicTacToe.cs",
@@ -439,74 +486,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T09:06:29.835Z"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "02e43fb7-a5fc-4866-b8a1-5dc6303cd22c",
-        "Display": 1,
-        "X": 426,
-        "Y": 254,
-        "Width": 570,
-        "Height": 532,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TicTacToeHubTests.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase.Tests\\TicTacToeHubTests.cs",
-              "RelativeDocumentMoniker": "..\\Showcase.Tests\\TicTacToeHubTests.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase.Tests\\TicTacToeHubTests.cs",
-              "RelativeToolTip": "..\\Showcase.Tests\\TicTacToeHubTests.cs",
-              "ViewState": "AgIAAOsAAAAAAAAAAAAgwAsBAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T08:22:34.256Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "30038747-bf3e-4c13-a6d2-3879e8499b52",
-        "Display": 1,
-        "X": 447,
-        "Y": 197,
-        "Width": 1701,
-        "Height": 1036,
-        "WindowState": 0
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TicTacToeHub.cs",
-              "DocumentMoniker": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Hubs\\TicTacToeHub.cs",
-              "RelativeDocumentMoniker": "Hubs\\TicTacToeHub.cs",
-              "ToolTip": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Hubs\\TicTacToeHub.cs",
-              "RelativeToolTip": "Hubs\\TicTacToeHub.cs",
-              "ViewState": "AgIAAHEAAAAAAAAAAAAuwJAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T08:45:25.553Z",
-              "EditorCaption": ""
             }
           ]
         }
