@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Showcase")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+46b1fb54f5091816b15cf7269ed930c6c04c623a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed9984169ee9405a4da228bc63910472c9ac49ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("Showcase")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Showcase")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

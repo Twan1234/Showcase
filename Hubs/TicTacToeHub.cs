@@ -24,9 +24,9 @@ namespace Showcase.Hubs
                 return;
             }
 
-            var session = await _dbService.CreateOrJoinGameSessionAsync(roomCode, username, Context.ConnectionId);
+            var session = await _dbService.CreateOrJoinGameSessionAsync(roomCode, username, connectionId);
 
-            await Groups.AddToGroupAsync(Context.ConnectionId, roomCode);
+            await Groups.AddToGroupAsync(connectionId, roomCode);
 
             await Clients.Group(roomCode)
                 .SendAsync("PlayerCountUpdate", session.Players.Count);
@@ -129,11 +129,8 @@ namespace Showcase.Hubs
         public override async Task OnDisconnectedAsync(Exception? exception)
         {
             var conn = await _dbService.GetConnectionByIdAsync(Context.ConnectionId);
-           // var otherPlayer = conn.GameSession.Players.FirstOrDefault(p => p.ConnectionId != Context.ConnectionId);
-
             await _dbService.RemoveConnectionAsync(Context.ConnectionId);
             await base.OnDisconnectedAsync(exception);
-          //  await Clients.Client(otherPlayer.ConnectionId).SendAsync("RedirectToLobbyOnDisconnect");
         }
 
         public async Task RequestReset(string roomCode)

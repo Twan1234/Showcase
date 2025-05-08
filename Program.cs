@@ -77,7 +77,6 @@ app.MapHub<TicTacToeHub>("/ReactTicTacToe");
 
 app.MapRazorPages();
 
-// seeding
 using (var scope = app.Services.CreateScope())
 {
     var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
