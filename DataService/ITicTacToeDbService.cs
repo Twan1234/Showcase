@@ -11,6 +11,10 @@ namespace Showcase.DataService
         Task<GameSession?> GetSessionByRoomCodeAsync(string roomCode);
         Task RemoveConnectionAsync(string connectionId);
         Task AddHighScoresAsync(string connectionId, string PlayerSymbolWon);
+        Task<List<HighScore>> GetAllHighScoresAsync();
+        Task<HighScore?> GetHighScoreByIdAsync(int id);
+        Task UpdateHighScoreAsync(HighScore highScore);
+        Task DeleteHighScoreAsync(int id);
         Task SaveChangesAsync();
     }
 

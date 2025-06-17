@@ -10,9 +10,9 @@ namespace Showcase.Controllers
     public class HighScoreController : Controller
     {
         private readonly ILogger<HighScoreController> _logger;
-        private readonly TicTacToeDbService _dbService;
+        private readonly ITicTacToeDbService _dbService;
 
-        public HighScoreController(ILogger<HighScoreController> logger, TicTacToeDbService dbService)
+        public HighScoreController(ILogger<HighScoreController> logger, ITicTacToeDbService dbService)
         {
             _logger = logger;
             _dbService = dbService;

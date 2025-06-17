@@ -17,10 +17,9 @@ builder.Services.AddDbContext<TicTacToeDbContext>(options =>
 
 
 //builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = false).AddEntityFrameworkStores<AuthDbContext>();
-builder.Services.AddScoped<TicTacToeDbService>();
+builder.Services.AddScoped<ITicTacToeDbService,TicTacToeDbService>();
 builder.Services.AddSignalR();
 
-// Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
@@ -56,8 +55,8 @@ if (!app.Environment.IsDevelopment())
 
 app.UseCors("reactApp");
 
-app.UseDefaultFiles(); // looks for index.html
-app.UseStaticFiles(); // serves static files from wwwroot
+app.UseDefaultFiles();
+app.UseStaticFiles();
 
 app.UseStaticFiles();
 

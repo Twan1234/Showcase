@@ -15,7 +15,7 @@ namespace Showcase.Hubs
             _dbService = dbService;
         }
 
-        public async Task JoinSpecificTicTacToeGameRoom(string roomCode, string username, string connectionId)
+        public async Task JoinSpecificTicTacToeGameRoom(string roomCode, string username)
         {
 
             if (await _dbService.CheckOfGameVolIs(roomCode))
@@ -24,9 +24,9 @@ namespace Showcase.Hubs
                 return;
             }
 
-            var session = await _dbService.CreateOrJoinGameSessionAsync(roomCode, username, connectionId);
+            var session = await _dbService.CreateOrJoinGameSessionAsync(roomCode, username, Context.ConnectionId);
 
-            await Groups.AddToGroupAsync(connectionId, roomCode);
+            await Groups.AddToGroupAsync(Context.ConnectionId, roomCode);
 
             await Clients.Group(roomCode)
                 .SendAsync("PlayerCountUpdate", session.Players.Count);
@@ -105,9 +105,9 @@ namespace Showcase.Hubs
         {
             int[][] wins = new int[][]
             {
-        new[]{0,1,2}, new[]{3,4,5}, new[]{6,7,8},
-        new[]{0,3,6}, new[]{1,4,7}, new[]{2,5,8},
-        new[]{0,4,8}, new[]{2,4,6}
+                new[]{0,1,2}, new[]{3,4,5}, new[]{6,7,8},
+                new[]{0,3,6}, new[]{1,4,7}, new[]{2,5,8},
+                new[]{0,4,8}, new[]{2,4,6}
             };
 
             foreach (var combo in wins)
@@ -115,7 +115,7 @@ namespace Showcase.Hubs
                 var (a, b, c) = (combo[0], combo[1], combo[2]);
                 if (!string.IsNullOrEmpty(board[a]) && board[a] == board[b] && board[b] == board[c])
                 {
-                    return board[a]; // "x" or "o"
+                    return board[a];
                 }
             }
             return null;
