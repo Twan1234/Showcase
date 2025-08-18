@@ -48,5 +48,4 @@ jobs:
           commit-message: "chore: bump NuGet dependencies"
           branch: "chore/update-nugets"
           base: main
-          reviewers: tjololo
           labels: dependencies
