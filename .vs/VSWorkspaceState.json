@@ -1,13 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Controllers",
-    "\\DataService",
-    "\\Hubs",
-    "\\Migrations",
-    "\\Models",
-    "\\Views",
-    "\\Views\\TicTacToe"
+    ""
   ],
   "SelectedNode": "\\Showcase.sln",
   "PreviewInSolutionExplorer": false

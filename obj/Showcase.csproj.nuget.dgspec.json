@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj": {}
+    "C:\\Repos\\Showcas\\Showcase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj": {
+    "C:\\Repos\\Showcas\\Showcase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj",
+        "projectUniqueName": "C:\\Repos\\Showcas\\Showcase.csproj",
         "projectName": "Showcase",
-        "projectPath": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\Showcase.csproj",
+        "projectPath": "C:\\Repos\\Showcas\\Showcase.csproj",
         "packagesPath": "C:\\Users\\klotwa_Vene\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\klotwa_Vene\\source\\repos\\Twan1234\\Showcase\\obj\\",
+        "outputPath": "C:\\Repos\\Showcas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -104,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
