@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XdhFvKa1mZc=",
+  "dgSpecHash": "0jmb+6FOOB0=",
   "success": true,
-  "projectFilePath": "C:\\Repos\\Showcas\\Showcase.csproj",
+  "projectFilePath": "C:\\Repos\\Showcase\\Showcase.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -191,9 +191,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.AspNet.SignalR.Core 2.4.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "projectPath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "filePath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "libraryId": "Microsoft.AspNet.SignalR.Core",
       "targetGraphs": [
         "net8.0"
@@ -203,9 +203,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.AspNet.SignalR.SystemWeb 2.4.3' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "projectPath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "filePath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "libraryId": "Microsoft.AspNet.SignalR.SystemWeb",
       "targetGraphs": [
         "net8.0"
@@ -215,9 +215,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.Owin 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "projectPath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "filePath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "libraryId": "Microsoft.Owin",
       "targetGraphs": [
         "net8.0"
@@ -227,9 +227,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.Owin.Host.SystemWeb 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "projectPath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "filePath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "libraryId": "Microsoft.Owin.Host.SystemWeb",
       "targetGraphs": [
         "net8.0"
@@ -239,9 +239,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Microsoft.Owin.Security 2.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "projectPath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "filePath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "libraryId": "Microsoft.Owin.Security",
       "targetGraphs": [
         "net8.0"
@@ -251,9 +251,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Owin 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
-      "projectPath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "projectPath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "filePath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "libraryId": "Owin",
       "targetGraphs": [
         "net8.0"

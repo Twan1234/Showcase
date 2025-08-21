@@ -8721,11 +8721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "projectUniqueName": "C:\\Repos\\Showcase\\Showcase.csproj",
       "projectName": "Showcase",
-      "projectPath": "C:\\Repos\\Showcas\\Showcase.csproj",
+      "projectPath": "C:\\Repos\\Showcase\\Showcase.csproj",
       "packagesPath": "C:\\Users\\klotwa_Vene\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\Showcas\\obj\\",
+      "outputPath": "C:\\Repos\\Showcase\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

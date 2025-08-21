@@ -3,6 +3,18 @@
     "mssql1": {
       "restored": true,
       "restoreTime": "2024-03-14T10:22:17.7966022Z"
+    },
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2025-08-21T08:59:48.9591046Z"
+    },
+    "sqlite2": {
+      "restored": true,
+      "restoreTime": "2025-08-21T09:13:10.1630946Z"
+    },
+    "sqlite1": {
+      "restored": true,
+      "restoreTime": "2025-08-21T08:59:49.1071284Z"
     }
   },
   "parameters": {}

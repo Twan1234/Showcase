@@ -3,6 +3,19 @@
     "mssql1": {
       "type": "mssql",
       "connectionId": "ConnectionStrings:AuthDbContextConnection"
+    },
+    "secrets1": {
+      "type": "secrets"
+    },
+    "sqlite1": {
+      "type": "sqlite",
+      "connectionId": "ConnectionStrings:DatabaseConnection",
+      "dynamicId": null
+    },
+    "sqlite2": {
+      "type": "sqlite",
+      "connectionId": "ConnectionStrings:AuthDatabase.sqlite",
+      "dynamicId": null
     }
   }
 }
