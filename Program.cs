@@ -5,6 +5,7 @@ using Showcase.Data;
 using Showcase.DataService;
 using Showcase.Hubs;
 using Microsoft.AspNetCore.HttpOverrides;
+using System.IO; // toegevoegd voor Directory/Path checks
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -35,7 +36,7 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
 // ---- CORS (optioneel configureerbaar) ----
-var allowed = builder.Configuration["AllowedCorsOrigins"]; // bv. "https://showcase-twan.azurewebsites.net;https://jouwfrontend.vercel.app"
+var allowed = builder.Configuration["AllowedCorsOrigins"];
 builder.Services.AddCors(opt =>
 {
     opt.AddPolicy("reactApp", p =>
@@ -56,7 +57,7 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
 }).AddRoles<IdentityRole>()
   .AddEntityFrameworkStores<AuthDbContext>();
 
-// (Aanrader op Azure achter proxy: forwarded headers voor correcte scheme/redirects)
+// Forwarded headers (achter Azure proxy)
 builder.Services.Configure<ForwardedHeadersOptions>(o =>
 {
     o.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
@@ -64,9 +65,32 @@ builder.Services.Configure<ForwardedHeadersOptions>(o =>
 
 var app = builder.Build();
 
+// ---- Helper: directory aanmaken voor SQLite ----
+string EnsureSqliteDir(string connectionString)
+{
+    const string key = "Data Source=";
+    var start = connectionString.IndexOf(key, StringComparison.OrdinalIgnoreCase);
+    if (start >= 0)
+    {
+        var filePath = connectionString.Substring(start + key.Length).Trim();
+        var dir = Path.GetDirectoryName(filePath);
+        if (!string.IsNullOrWhiteSpace(dir) && !Directory.Exists(dir))
+            Directory.CreateDirectory(dir);
+    }
+    return connectionString;
+}
+
 // ---- DB migraties bij start (beide contexten) ----
 using (var scope = app.Services.CreateScope())
 {
+    var cfg = scope.ServiceProvider.GetRequiredService<IConfiguration>();
+
+    var authConn = cfg.GetConnectionString("AuthDbContextConnection");
+    var ticConn = cfg.GetConnectionString("TicTacToeDbConnection");
+
+    EnsureSqliteDir(authConn);
+    EnsureSqliteDir(ticConn);
+
     var authDb = scope.ServiceProvider.GetRequiredService<AuthDbContext>();
     authDb.Database.Migrate();
 
@@ -80,17 +104,16 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseForwardedHeaders(); // vóór HTTPS redirect
+app.UseForwardedHeaders();
 app.UseHttpsRedirection();
 
 app.UseDefaultFiles();
 app.UseStaticFiles();
 
 app.UseRouting();
-
 app.UseCors("reactApp");
 
-app.UseAuthentication();   // <- stond nog niet in je code
+app.UseAuthentication();
 app.UseAuthorization();
 
 // MVC routes

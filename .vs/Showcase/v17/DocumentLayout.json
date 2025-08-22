@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "C:\\Repos\\Showcase\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\dataservice\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:dataservice\\shareddb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\migrations\\20250226142411_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:migrations\\20250226142411_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\migrations\\tictactoedb\\tictactoedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:migrations\\tictactoedb\\tictactoedbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\data\\tictactoedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:data\\tictactoedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\dataservice\\tictactoedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:dataservice\\tictactoedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -83,105 +63,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Repos\\Showcase\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Repos\\Showcase\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-21T09:12:19.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Repos\\Showcase\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Repos\\Showcase\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T09:12:16.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Repos\\Showcase\\package.json",
-              "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "C:\\Repos\\Showcase\\package.json",
-              "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-08-21T09:12:10.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20250226142411_init.cs",
-              "DocumentMoniker": "C:\\Repos\\Showcase\\Migrations\\20250226142411_init.cs",
-              "RelativeDocumentMoniker": "Migrations\\20250226142411_init.cs",
-              "ToolTip": "C:\\Repos\\Showcase\\Migrations\\20250226142411_init.cs",
-              "RelativeToolTip": "Migrations\\20250226142411_init.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T09:11:57.282Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TicTacToeDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Repos\\Showcase\\Migrations\\TicTacToeDb\\TicTacToeDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\TicTacToeDb\\TicTacToeDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Repos\\Showcase\\Migrations\\TicTacToeDb\\TicTacToeDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\TicTacToeDb\\TicTacToeDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T09:11:54.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TicTacToeDbContext.cs",
-              "DocumentMoniker": "C:\\Repos\\Showcase\\Data\\TicTacToeDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\TicTacToeDbContext.cs",
-              "ToolTip": "C:\\Repos\\Showcase\\Data\\TicTacToeDbContext.cs",
-              "RelativeToolTip": "Data\\TicTacToeDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T09:11:46.562Z",
+              "WhenOpened": "2025-08-21T13:07:53.547Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SharedDb.cs",
-              "DocumentMoniker": "C:\\Repos\\Showcase\\DataService\\SharedDb.cs",
-              "RelativeDocumentMoniker": "DataService\\SharedDb.cs",
-              "ToolTip": "C:\\Repos\\Showcase\\DataService\\SharedDb.cs",
-              "RelativeToolTip": "DataService\\SharedDb.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T09:11:42.429Z",
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Repos\\Showcase\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Repos\\Showcase\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-21T13:07:14.038Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TicTacToeDbService.cs",
-              "DocumentMoniker": "C:\\Repos\\Showcase\\DataService\\TicTacToeDbService.cs",
-              "RelativeDocumentMoniker": "DataService\\TicTacToeDbService.cs",
-              "ToolTip": "C:\\Repos\\Showcase\\DataService\\TicTacToeDbService.cs",
-              "RelativeToolTip": "DataService\\TicTacToeDbService.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T09:11:38.57Z",
+              "DocumentIndex": 2,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Repos\\Showcase\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "C:\\Repos\\Showcase\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-21T13:06:05.446Z",
               "EditorCaption": ""
             }
           ]
