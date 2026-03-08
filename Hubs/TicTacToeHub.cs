@@ -1,8 +1,6 @@
-﻿using Microsoft.AspNetCore.SignalR;
-using Microsoft.CodeAnalysis.Elfie.Model;
+using Microsoft.AspNetCore.SignalR;
 using Showcase.DataService;
 using Showcase.Models;
-using System.Diagnostics;
 
 namespace Showcase.Hubs
 {
@@ -45,7 +43,7 @@ namespace Showcase.Hubs
             var conn = await _dbService.GetConnectionByIdAsync(Context.ConnectionId);
             if (conn != null)
             {
-                await Clients.Group(conn.GameSession.RoomCode)
+                await Clients.Group(conn.GameSession!.RoomCode)
                     .SendAsync("ReceiveSpecificMessage", conn.Username, msg);
             }
         }
@@ -54,7 +52,7 @@ namespace Showcase.Hubs
         {
             var conn = await _dbService.GetConnectionByIdAsync(Context.ConnectionId);
             if (conn == null) return;
-            var session = conn.GameSession;
+            var session = conn.GameSession!;
 
             if (session.CurrentTurnConnectionId != Context.ConnectionId)
                 return;
@@ -73,14 +71,11 @@ namespace Showcase.Hubs
             await Clients.Group(session.RoomCode).SendAsync("ReceiveMove", new { Index = index, Symbol = conn.PlayerSymbol });
 
             board[index] = conn.PlayerSymbol;
-
-            board[index] = conn.PlayerSymbol;
             string? winner = CheckWinner(board);
             if (winner != null)
             {
-                session.IsGameOver = true;
+                await _dbService.SetSessionGameOverAsync(session.Id);
                 await _dbService.AddHighScoresAsync(conn.ConnectionId, winner);
-                await _dbService.SaveChangesAsync();
                 await Clients.Group(session.RoomCode).SendAsync("GameWon", winner);
                 return;
             }
@@ -95,8 +90,7 @@ namespace Showcase.Hubs
             var nextPlayer = session.Players.FirstOrDefault(p => p.ConnectionId != Context.ConnectionId);
             if (nextPlayer != null)
             {
-                session.CurrentTurnConnectionId = nextPlayer.ConnectionId;
-                await _dbService.SaveChangesAsync();
+                await _dbService.UpdateSessionTurnAsync(session.Id, nextPlayer.ConnectionId);
                 await Clients.Group(session.RoomCode).SendAsync("UpdateTurn", new { ConnectionId = nextPlayer.ConnectionId });            
             }
         }
@@ -153,18 +147,18 @@ namespace Showcase.Hubs
             if (confirm)
             {
                 var playerX = session.Players.FirstOrDefault(x => x.PlayerSymbol == "x");
-
-                session.Moves.Clear();
-                session.CurrentTurnConnectionId = playerX.ConnectionId;
-                await _dbService.SaveChangesAsync();
-
-                await Clients.Group(roomCode).SendAsync("ResetGame");
-                await Clients.Group(roomCode).SendAsync("UpdateTurn", new { ConnectionId = playerX.ConnectionId });
+                if (playerX != null)
+                {
+                    await _dbService.ClearMovesAndUpdateTurnAsync(session.Id, playerX.ConnectionId);
+                    await Clients.Group(roomCode).SendAsync("ResetGame");
+                    await Clients.Group(roomCode).SendAsync("UpdateTurn", new { ConnectionId = playerX.ConnectionId });
+                }
             }
             else
             {
                 var otherPlayer = session.Players.FirstOrDefault(p => p.ConnectionId != Context.ConnectionId);
-                await Clients.Client(otherPlayer.ConnectionId).SendAsync("ResetRequestRejected");              
+                if (otherPlayer != null)
+                    await Clients.Client(otherPlayer.ConnectionId).SendAsync("ResetRequestRejected");              
             }
         }
         public async Task RequestRematch(string roomCode)
@@ -188,17 +182,18 @@ namespace Showcase.Hubs
             {
                 var playerX = session.Players.FirstOrDefault(x =>
                     string.Equals(x.PlayerSymbol, "x", StringComparison.OrdinalIgnoreCase));
-                session.CurrentTurnConnectionId = playerX.ConnectionId;
-                session.Moves.Clear();
-                await _dbService.SaveChangesAsync();
-
-                await Clients.Group(roomCode).SendAsync("ResetGame");
-                await Clients.Group(roomCode).SendAsync("UpdateTurn", new { ConnectionId = playerX.ConnectionId });
+                if (playerX != null)
+                {
+                    await _dbService.ClearMovesAndUpdateTurnAsync(session.Id, playerX.ConnectionId);
+                    await Clients.Group(roomCode).SendAsync("ResetGame");
+                    await Clients.Group(roomCode).SendAsync("UpdateTurn", new { ConnectionId = playerX.ConnectionId });
+                }
             }
             else
             {
                 var otherPlayer = session.Players.FirstOrDefault(p => p.ConnectionId != Context.ConnectionId);
-                await Clients.Client(otherPlayer.ConnectionId).SendAsync("RematchRequestRejected");
+                if (otherPlayer != null)
+                    await Clients.Client(otherPlayer.ConnectionId).SendAsync("RematchRequestRejected");
                 await Clients.Client(Context.ConnectionId).SendAsync("RedirectToLobby");
             }
         }

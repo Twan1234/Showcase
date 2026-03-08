@@ -1,214 +1,154 @@
-﻿using Showcase.Data;
+using Showcase.Infra.Interfaces;
 using Showcase.Models;
-using Microsoft.EntityFrameworkCore;
 
-namespace Showcase.DataService
+namespace Showcase.DataService;
+
+public class TicTacToeDbService : ITicTacToeDbService
 {
-    public class TicTacToeDbService : ITicTacToeDbService
+    private readonly IGameSessionRepository _gameSessions;
+    private readonly IUserConnectionRepository _userConnections;
+    private readonly IMoveRepository _moves;
+    private readonly IHighScoreRepository _highScores;
+
+    public TicTacToeDbService(
+        IGameSessionRepository gameSessions,
+        IUserConnectionRepository userConnections,
+        IMoveRepository moves,
+        IHighScoreRepository highScores)
     {
-        private readonly TicTacToeDbContext _context;
-
-        public TicTacToeDbService(TicTacToeDbContext context)
-        {
-            _context = context;
-        }
-        public async Task<GameSession> CreateOrJoinGameSessionAsync(string roomCode, string username, string connectionId)
-        {
-            var session = await _context.GameSessions
-                .Include(s => s.Players)
-                .FirstOrDefaultAsync(s => s.RoomCode == roomCode);
-
-            if (session == null)
-            {
-                session = new GameSession
-                {
-                    RoomCode = roomCode,
-                    CurrentTurnConnectionId = connectionId
-                };
-
-                _context.GameSessions.Add(session);
-                await _context.SaveChangesAsync();
-            }
-
-            if (!session.Players.Any(p => p.ConnectionId == connectionId))
-            {
-                string symbol = session.Players.Count == 0 ? "x" : "o";
-
-                var user = new UserConnection
-                {
-                    Username = username,
-                    ConnectionId = connectionId,
-                    PlayerSymbol = symbol,
-                    GameSessionId = session.Id
-                };
-
-
-                _context.UserConnections.Add(user);
-                await _context.SaveChangesAsync();
-
-                Console.WriteLine($"New user created with Id: {user.Id}");
-            }
-
-            return session;
-        }
-
-        public async Task<bool> CheckOfGameVolIs(string roomCode)
-        {
-            var session = await _context.GameSessions
-                .Include(s => s.Players)
-                .FirstOrDefaultAsync(s => s.RoomCode == roomCode);
-
-            if (session != null && session.Players.Count >= 2)
-            {
-                return true;
-            }
-
-            return false;
-        }
-
-        public async Task AddMoveAsync(string connectionId, int index, string symbol)
-        {
-            var conn = await GetConnectionByIdAsync(connectionId);
-            if (conn == null) return;
-
-            var move = new Move
-            {
-                GameSessionId = conn.GameSessionId,
-                Index = index,
-                Symbol = symbol
-            };
-
-            _context.Moves.Add(move);
-            await _context.SaveChangesAsync();
-        }
-
-        public async Task<UserConnection?> GetConnectionByIdAsync(string connectionId)
-        {
-            return await _context.UserConnections
-                .Include(c => c.GameSession)
-                .ThenInclude(gs => gs.Players)
-                .Include(c => c.GameSession)
-                .ThenInclude(gs => gs.Moves)
-                .FirstOrDefaultAsync(c => c.ConnectionId == connectionId);
-        }
-        public async Task<GameSession?> GetSessionByRoomCodeAsync(string roomCode)
-        {
-            return await _context.GameSessions
-                .Include(s => s.Players)
-                .Include(s => s.Moves)
-                .FirstOrDefaultAsync(s => s.RoomCode == roomCode);
-        }
-
-        public async Task RemoveConnectionAsync(string connectionId)
-        {
-            var conn = await _context.UserConnections
-                .FirstOrDefaultAsync(c => c.ConnectionId == connectionId);
-
-            if (conn != null)
-            {
-                _context.UserConnections.Remove(conn);
-                await _context.SaveChangesAsync();
-            }
-        }
-
-        public async Task<HighScore?> GetHighScoreByIdAsync(int id)
-        {
-            return await _context.Highscores.FindAsync(id);
-        }
-
-        public async Task<HighScore?> GetHighScoreByPlayerNameAsync(string playerName)
-        {
-
-           return await _context.Highscores
-                    .FirstOrDefaultAsync(c => c.PlayerName == playerName);
-        }
-
-        public async Task AddHighScoresAsync(string connectionId, string PlayerSymbolWon)
-        {
-            var conn = await GetConnectionByIdAsync(connectionId);
-            if (conn == null) return;
-
-            foreach (var item in conn.GameSession.Players)
-            {
-                var highScore = await GetHighScoreByPlayerNameAsync(item.Username);
-
-                if (highScore == null)
-                {
-                    highScore = new HighScore
-                    {
-                        PlayerName = item.Username,
-                        Wins = 0,
-                        Losses = 0,
-                        Draws = 0,
-                        LastPlayed = DateTime.UtcNow
-                    };
-                }
-
-                if (PlayerSymbolWon == "DRAW")
-                {
-                    highScore.Draws += 1;
-                    highScore.LastPlayed = DateTime.UtcNow;
-
-                } else if (PlayerSymbolWon == item.PlayerSymbol)
-                {
-                    highScore.Wins += 1;
-                    highScore.LastPlayed = DateTime.UtcNow;
-                }
-                else
-                {
-                    highScore.Losses += 1;
-                    highScore.LastPlayed = DateTime.UtcNow;
-                }
-
-                if (highScore.Id == 0)
-                {
-                    _context.Highscores.Add(highScore);
-                }
-                else
-                {
-                    _context.Highscores.Update(highScore);
-                }
-            }
-
-
-          
-            await _context.SaveChangesAsync();
-
-
-
-
-
-        }
-
-        public async Task<List<HighScore>> GetAllHighScoresAsync()
-        {
-            return await _context.Highscores
-                .OrderByDescending(h => h.Wins)
-                .ThenBy(h => h.PlayerName)
-                .ToListAsync();
-        }
-
-        public async Task UpdateHighScoreAsync(HighScore highScore)
-        {
-            _context.Highscores.Update(highScore);
-            await _context.SaveChangesAsync();
-        }
-
-        public async Task DeleteHighScoreAsync(int id)
-        {
-            var highScore = await _context.Highscores.FindAsync(id);
-            if (highScore != null)
-            {
-                _context.Highscores.Remove(highScore);
-                await _context.SaveChangesAsync();
-            }
-        }
-
-        public async Task SaveChangesAsync()
-        {
-            await _context.SaveChangesAsync();
-        }
-
-
+        _gameSessions = gameSessions;
+        _userConnections = userConnections;
+        _moves = moves;
+        _highScores = highScores;
     }
+
+    public async Task<GameSession> CreateOrJoinGameSessionAsync(string roomCode, string username, string connectionId)
+    {
+        var session = await _gameSessions.GetByRoomCodeAsync(roomCode);
+        if (session == null)
+        {
+            session = await _gameSessions.CreateAsync(roomCode, connectionId);
+        }
+
+        var players = await _userConnections.GetByGameSessionIdAsync(session.Id);
+        if (players.All(p => p.ConnectionId != connectionId))
+        {
+            var symbol = players.Count == 0 ? "x" : "o";
+            await _userConnections.CreateAsync(username, symbol, connectionId, session.Id);
+            players = await _userConnections.GetByGameSessionIdAsync(session.Id);
+        }
+
+        session.Players = players.ToList();
+        session.Moves = (await _moves.GetByGameSessionIdAsync(session.Id)).ToList();
+        return session;
+    }
+
+    public async Task<bool> CheckOfGameVolIs(string roomCode)
+    {
+        var session = await _gameSessions.GetByRoomCodeAsync(roomCode);
+        if (session == null) return false;
+        var players = await _userConnections.GetByGameSessionIdAsync(session.Id);
+        return players.Count >= 2;
+    }
+
+    public async Task AddMoveAsync(string connectionId, int index, string symbol)
+    {
+        var conn = await _userConnections.GetByConnectionIdAsync(connectionId);
+        if (conn == null) return;
+        await _moves.AddAsync(conn.GameSessionId, index, symbol);
+    }
+
+    public async Task<UserConnection?> GetConnectionByIdAsync(string connectionId)
+    {
+        var conn = await _userConnections.GetByConnectionIdAsync(connectionId);
+        if (conn == null) return null;
+        var session = await _gameSessions.GetByIdAsync(conn.GameSessionId);
+        if (session == null) return conn;
+        session.Players = (await _userConnections.GetByGameSessionIdAsync(session.Id)).ToList();
+        session.Moves = (await _moves.GetByGameSessionIdAsync(session.Id)).ToList();
+        conn.GameSession = session;
+        return conn;
+    }
+
+    public async Task<GameSession?> GetSessionByRoomCodeAsync(string roomCode)
+    {
+        var session = await _gameSessions.GetByRoomCodeAsync(roomCode);
+        if (session == null) return null;
+        session.Players = (await _userConnections.GetByGameSessionIdAsync(session.Id)).ToList();
+        session.Moves = (await _moves.GetByGameSessionIdAsync(session.Id)).ToList();
+        return session;
+    }
+
+    public async Task RemoveConnectionAsync(string connectionId) =>
+        await _userConnections.RemoveByConnectionIdAsync(connectionId);
+
+    public async Task<HighScore?> GetHighScoreByIdAsync(int id) =>
+        await _highScores.GetByIdAsync(id);
+
+    public async Task<HighScore?> GetHighScoreByPlayerNameAsync(string playerName) =>
+        await _highScores.GetByPlayerNameAsync(playerName);
+
+    public async Task AddHighScoresAsync(string connectionId, string playerSymbolWon)
+    {
+        var conn = await GetConnectionByIdAsync(connectionId);
+        if (conn?.GameSession == null) return;
+
+        foreach (var item in conn.GameSession.Players)
+        {
+            var highScore = await _highScores.GetByPlayerNameAsync(item.Username);
+            if (highScore == null)
+            {
+                highScore = new HighScore
+                {
+                    PlayerName = item.Username,
+                    Wins = 0,
+                    Losses = 0,
+                    Draws = 0,
+                    LastPlayed = DateTime.UtcNow
+                };
+                highScore = await _highScores.CreateAsync(highScore);
+            }
+
+            if (playerSymbolWon == "DRAW")
+            {
+                highScore.Draws += 1;
+            }
+            else if (playerSymbolWon == item.PlayerSymbol)
+            {
+                highScore.Wins += 1;
+            }
+            else
+            {
+                highScore.Losses += 1;
+            }
+            highScore.LastPlayed = DateTime.UtcNow;
+            await _highScores.UpdateAsync(highScore);
+        }
+    }
+
+    public async Task<List<HighScore>> GetAllHighScoresAsync()
+    {
+        var list = await _highScores.GetAllOrderByWinsDescAsync();
+        return list.ToList();
+    }
+
+    public async Task UpdateHighScoreAsync(HighScore highScore) =>
+        await _highScores.UpdateAsync(highScore);
+
+    public async Task DeleteHighScoreAsync(int id) =>
+        await _highScores.DeleteAsync(id);
+
+    public Task SaveChangesAsync() => Task.CompletedTask;
+
+    public async Task UpdateSessionTurnAsync(int sessionId, string currentTurnConnectionId) =>
+        await _gameSessions.UpdateAsync(sessionId, currentTurnConnectionId: currentTurnConnectionId);
+
+    public async Task ClearMovesAndUpdateTurnAsync(int sessionId, string currentTurnConnectionId)
+    {
+        await _moves.ClearForGameSessionAsync(sessionId);
+        await _gameSessions.UpdateAsync(sessionId, currentTurnConnectionId: currentTurnConnectionId);
+    }
+
+    public async Task SetSessionGameOverAsync(int sessionId, bool isGameOver = true) =>
+        await _gameSessions.UpdateAsync(sessionId, isGameOver: isGameOver);
 }

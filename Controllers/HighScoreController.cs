@@ -1,8 +1,7 @@
-﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Showcase.DataService;
 using Showcase.Models;
-using System.Diagnostics;
 
 namespace Showcase.Controllers
 {
@@ -59,7 +58,5 @@ namespace Showcase.Controllers
             await _dbService.DeleteHighScoreAsync(id);
             return RedirectToAction(nameof(Index));
         }
-
-
     }
 }

@@ -1,102 +1,50 @@
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Showcase.Areas.Identity.Data;
 using Showcase.Data;
-using Showcase.DataService;
 using Showcase.Hubs;
-using Microsoft.AspNetCore.HttpOverrides;
-using System.IO; // toegevoegd voor Directory/Path checks
+using Showcase.Infra;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ---- Connection strings uit env (Azure) laten overriden ----
-void OverrideConn(string key)
+void OverrideConnectionStringsFromEnv()
 {
-    var v = Environment.GetEnvironmentVariable($"ConnectionStrings__{key}");
-    if (!string.IsNullOrWhiteSpace(v))
-        builder.Configuration[$"ConnectionStrings:{key}"] = v;
+    foreach (var key in new[] { "AuthDbContextConnection", "TicTacToeDbConnection" })
+    {
+        var value = Environment.GetEnvironmentVariable($"ConnectionStrings__{key}");
+        if (!string.IsNullOrWhiteSpace(value))
+            builder.Configuration[$"ConnectionStrings:{key}"] = value;
+    }
 }
-OverrideConn("AuthDbContextConnection");
-OverrideConn("TicTacToeDbConnection");
+OverrideConnectionStringsFromEnv();
 
-// ---- DbContexts ----
-var authCs = builder.Configuration.GetConnectionString("AuthDbContextConnection")
-    ?? throw new InvalidOperationException("Connection string 'AuthDbContextConnection' not found.");
-builder.Services.AddDbContext<AuthDbContext>(o => o.UseSqlite(authCs));
-
-var tttCs = builder.Configuration.GetConnectionString("TicTacToeDbConnection")
-    ?? throw new InvalidOperationException("Connection string 'TicTacToeDbConnection' not found.");
-builder.Services.AddDbContext<TicTacToeDbContext>(o => o.UseSqlite(tttCs));
-
-// ---- Services / Identity / SignalR ----
-builder.Services.AddScoped<ITicTacToeDbService, TicTacToeDbService>();
+builder.Services.AddShowcaseStorage(builder.Configuration);
 builder.Services.AddSignalR();
-
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
-// ---- CORS (optioneel configureerbaar) ----
-var allowed = builder.Configuration["AllowedCorsOrigins"];
-builder.Services.AddCors(opt =>
+builder.Services.AddCors(options =>
 {
-    opt.AddPolicy("reactApp", p =>
+    options.AddPolicy("reactApp", policy =>
     {
-        if (!string.IsNullOrWhiteSpace(allowed))
-            p.WithOrigins(allowed.Split(';', StringSplitOptions.RemoveEmptyEntries))
-             .AllowAnyHeader().AllowAnyMethod().AllowCredentials();
-        else
-            p.WithOrigins("http://localhost:3000")
-             .AllowAnyHeader().AllowAnyMethod().AllowCredentials();
+        var origins = builder.Configuration["AllowedCorsOrigins"];
+        var allowed = string.IsNullOrWhiteSpace(origins)
+            ? new[] { "http://localhost:3000" }
+            : origins.Split(';', StringSplitOptions.RemoveEmptyEntries);
+        policy.WithOrigins(allowed).AllowAnyHeader().AllowAnyMethod().AllowCredentials();
     });
 });
 
-// Identity
 builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
-{
-    options.Tokens.AuthenticatorTokenProvider = TokenOptions.DefaultAuthenticatorProvider;
-}).AddRoles<IdentityRole>()
-  .AddEntityFrameworkStores<AuthDbContext>();
+    options.Tokens.AuthenticatorTokenProvider = TokenOptions.DefaultAuthenticatorProvider)
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<AuthDbContext>();
 
-// Forwarded headers (achter Azure proxy)
-builder.Services.Configure<ForwardedHeadersOptions>(o =>
-{
-    o.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
-});
+builder.Services.Configure<ForwardedHeadersOptions>(options =>
+    options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto);
 
 var app = builder.Build();
-
-// ---- Helper: directory aanmaken voor SQLite ----
-string EnsureSqliteDir(string connectionString)
-{
-    const string key = "Data Source=";
-    var start = connectionString.IndexOf(key, StringComparison.OrdinalIgnoreCase);
-    if (start >= 0)
-    {
-        var filePath = connectionString.Substring(start + key.Length).Trim();
-        var dir = Path.GetDirectoryName(filePath);
-        if (!string.IsNullOrWhiteSpace(dir) && !Directory.Exists(dir))
-            Directory.CreateDirectory(dir);
-    }
-    return connectionString;
-}
-
-// ---- DB migraties bij start (beide contexten) ----
-using (var scope = app.Services.CreateScope())
-{
-    var cfg = scope.ServiceProvider.GetRequiredService<IConfiguration>();
-
-    var authConn = cfg.GetConnectionString("AuthDbContextConnection");
-    var ticConn = cfg.GetConnectionString("TicTacToeDbConnection");
-
-    EnsureSqliteDir(authConn);
-    EnsureSqliteDir(ticConn);
-
-    var authDb = scope.ServiceProvider.GetRequiredService<AuthDbContext>();
-    authDb.Database.Migrate();
-
-    var gameDb = scope.ServiceProvider.GetRequiredService<TicTacToeDbContext>();
-    gameDb.Database.Migrate();
-}
 
 if (!app.Environment.IsDevelopment())
 {
@@ -104,44 +52,64 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+EnsureSqliteDirectories(app);
+RunMigrations(app);
+
 app.UseForwardedHeaders();
 app.UseHttpsRedirection();
-
 app.UseDefaultFiles();
 app.UseStaticFiles();
-
 app.UseRouting();
 app.UseCors("reactApp");
-
 app.UseAuthentication();
 app.UseAuthorization();
 
-// MVC routes
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-// SignalR hub
+app.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
 app.MapHub<TicTacToeHub>("/ReactTicTacToe");
-
 app.MapRazorPages();
 
-// ---- Role + user seeding ----
-using (var scope = app.Services.CreateScope())
-{
-    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-    var roles = new[] { "Admin", "Member" };
-    foreach (var role in roles)
-        if (!await roleManager.RoleExistsAsync(role))
-            await roleManager.CreateAsync(new IdentityRole(role));
-}
-
-using (var scope = app.Services.CreateScope())
-{
-    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
-    var user = await userManager.FindByEmailAsync("twan.kloek@gmail.com");
-    if (user != null)
-        await userManager.AddToRoleAsync(user, "Admin");
-}
+await SeedRolesAndAdminAsync(app);
 
 app.Run();
+
+static void EnsureSqliteDirectories(WebApplication app)
+{
+    var cfg = app.Services.GetRequiredService<IConfiguration>();
+    if (!StorageServiceCollectionExtensions.IsUsingSqlite(cfg)) return;
+
+    foreach (var key in new[] { "AuthDbContextConnection", "TicTacToeDbConnection" })
+    {
+        var cs = cfg.GetConnectionString(key);
+        if (string.IsNullOrWhiteSpace(cs)) continue;
+        const string prefix = "Data Source=";
+        var i = cs.IndexOf(prefix, StringComparison.OrdinalIgnoreCase);
+        if (i < 0) continue;
+        var path = cs.Substring(i + prefix.Length).Trim();
+        var dir = Path.GetDirectoryName(path);
+        if (!string.IsNullOrWhiteSpace(dir) && !Directory.Exists(dir))
+            Directory.CreateDirectory(dir);
+    }
+}
+
+static void RunMigrations(WebApplication app)
+{
+    using var scope = app.Services.CreateScope();
+    var authDb = scope.ServiceProvider.GetRequiredService<AuthDbContext>();
+    authDb.Database.Migrate();
+}
+
+static async Task SeedRolesAndAdminAsync(WebApplication app)
+{
+    using var scope = app.Services.CreateScope();
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    foreach (var role in new[] { "Admin", "Member" })
+    {
+        if (!await roleManager.RoleExistsAsync(role))
+            await roleManager.CreateAsync(new IdentityRole(role));
+    }
+
+    var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+    var admin = await userManager.FindByEmailAsync("twan.kloek@gmail.com");
+    if (admin != null && !await userManager.IsInRoleAsync(admin, "Admin"))
+        await userManager.AddToRoleAsync(admin, "Admin");
+}

@@ -1,4 +1,4 @@
-﻿using Showcase.Models;
+using Showcase.Models;
 
 namespace Showcase.DataService
 {
@@ -16,6 +16,9 @@ namespace Showcase.DataService
         Task UpdateHighScoreAsync(HighScore highScore);
         Task DeleteHighScoreAsync(int id);
         Task SaveChangesAsync();
+        Task UpdateSessionTurnAsync(int sessionId, string currentTurnConnectionId);
+        Task ClearMovesAndUpdateTurnAsync(int sessionId, string currentTurnConnectionId);
+        Task SetSessionGameOverAsync(int sessionId, bool isGameOver = true);
     }
 
 }

@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Showcase.Models
@@ -11,6 +11,6 @@ namespace Showcase.Models
         public int GameSessionId { get; set; }
 
         [ForeignKey("GameSessionId")]
-        public GameSession GameSession { get; set; }
+        public GameSession? GameSession { get; set; }
     }
 }
