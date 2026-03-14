@@ -1,3 +1,4 @@
+using AspNetCoreRateLimit;
 using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
@@ -24,6 +25,12 @@ builder.Services.AddShowcaseStorage(builder.Configuration);
 builder.Services.AddSignalR();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
+
+// ASVS V8.1.4, V11.1.4: rate limiting per IP (anti-automation / abnormal request detection)
+builder.Services.AddMemoryCache();
+builder.Services.Configure<IpRateLimitOptions>(builder.Configuration.GetSection("IpRateLimiting"));
+builder.Services.AddInMemoryRateLimiting();
+builder.Services.AddSingleton<IRateLimitConfiguration, RateLimitConfiguration>();
 
 builder.Services.AddCors(options =>
 {
@@ -132,6 +139,7 @@ app.UseHttpsRedirection();
 app.UseDefaultFiles();
 app.UseStaticFiles();
 app.UseRouting();
+app.UseIpRateLimiting();
 app.UseCors("reactApp");
 app.UseAuthentication();
 app.UseAuthorization();

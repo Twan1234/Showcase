@@ -48,6 +48,8 @@ Voor een voldoende hoef je **niet** alle 234 in te vullen. Kies: **implementeren
 
 **Tijd:** ~45 min (incl. testen).
 
+**Gerealiseerd / portfolio:** Rate limiting via AspNetCoreRateLimit, 100 req/min per IP. Zie `appsettings.json` (sectie `IpRateLimiting`) en `Program.cs` (AddMemoryCache, AddInMemoryRateLimiting, UseIpRateLimiting na UseRouting, vóór UseAuthentication).
+
 Als je geen extra package wilt: alleen **documenteren** in portfolio + ASVS: "Geen rate limiting geïmplementeerd; Identity account lockout beschermt login; voor productie wordt rate limiting aanbevolen."
 
 ---
@@ -91,6 +93,8 @@ Als je geen extra package wilt: alleen **documenteren** in portfolio + ASVS: "Ge
 
 **Tijd:** ~30 min.
 
+**Gerealiseerd / portfolio:** Security headers gecontroleerd met Playwright E2E-test. Zie `tests/e2e/security-headers.spec.ts`: controle op aanwezigheid van `x-frame-options` of `content-security-policy`, en `x-content-type-options: nosniff` op de homepage.
+
 ---
 
 ### Stap 2.3: CI (GitHub Actions) voor build + tests
@@ -100,6 +104,8 @@ Als je geen extra package wilt: alleen **documenteren** in portfolio + ASVS: "Ge
 3. Portfolio: "DTAP Testing: GitHub Actions voert build en Playwright E2E-tests uit."
 
 **Tijd:** ~30 min (kunnen ook alleen build zijn als Playwright niet op de runner draait).
+
+**Gerealiseerd / portfolio:** DTAP Testing: GitHub Actions voert build en Playwright E2E-tests uit. Zie `.github/workflows/build-and-test.yml`: checkout → .NET restore + build (Release) → npm ci → Playwright browsers install → Playwright test. De app wordt in CI automatisch gestart via `webServer` in `playwright.config.ts`.
 
 ---
 

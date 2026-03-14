@@ -9,6 +9,7 @@ C:\Repos\Showcase\bin\Debug\net8.0\RunQuery\bin\Debug\net8.0\RunQuery.runtimecon
 C:\Repos\Showcase\bin\Debug\net8.0\RunQuery\obj\Debug\net8.0\RunQuery.sourcelink.json
 C:\Repos\Showcase\bin\Debug\net8.0\RunQuery\obj\project.assets.json
 C:\Repos\Showcase\bin\Debug\net8.0\RunQuery\obj\RunQuery.csproj.nuget.dgspec.json
+C:\Repos\Showcase\bin\Debug\net8.0\test-results\.last-run.json
 C:\Repos\Showcase\bin\Debug\net8.0\Showcase.staticwebassets.runtime.json
 C:\Repos\Showcase\bin\Debug\net8.0\Showcase.staticwebassets.endpoints.json
 C:\Repos\Showcase\bin\Debug\net8.0\Showcase.exe
@@ -16,6 +17,7 @@ C:\Repos\Showcase\bin\Debug\net8.0\Showcase.deps.json
 C:\Repos\Showcase\bin\Debug\net8.0\Showcase.runtimeconfig.json
 C:\Repos\Showcase\bin\Debug\net8.0\Showcase.dll
 C:\Repos\Showcase\bin\Debug\net8.0\Showcase.pdb
+C:\Repos\Showcase\bin\Debug\net8.0\AspNetCoreRateLimit.dll
 C:\Repos\Showcase\bin\Debug\net8.0\Azure.Core.dll
 C:\Repos\Showcase\bin\Debug\net8.0\Azure.Identity.dll
 C:\Repos\Showcase\bin\Debug\net8.0\Dapper.dll
@@ -328,7 +330,6 @@ C:\Repos\Showcase\obj\Debug\net8.0\staticwebassets.build.json
 C:\Repos\Showcase\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Repos\Showcase\obj\Debug\net8.0\staticwebassets.development.json
 C:\Repos\Showcase\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Repos\Showcase\obj\Debug\net8.0\swae.build.ex.cache
 C:\Repos\Showcase\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Repos\Showcase\obj\Debug\net8.0\Showcase.csproj.Up2Date
 C:\Repos\Showcase\obj\Debug\net8.0\Showcase.dll

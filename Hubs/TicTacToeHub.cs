@@ -1,3 +1,5 @@
+using System.Net;
+using System.Text.RegularExpressions;
 using Microsoft.AspNetCore.SignalR;
 using Showcase.DataService;
 using Showcase.Models;
@@ -8,6 +10,9 @@ namespace Showcase.Hubs
     {
         private readonly ITicTacToeDbService _dbService;
 
+        // ASVS V5.1.3: allowlist voor roomCode/username (alfanumeriek + koppelteken, max 20)
+        private static readonly Regex RoomCodeUsernameAllowlist = new(@"^[a-zA-Z0-9\-]{1,20}$", RegexOptions.Compiled);
+
         public TicTacToeHub(ITicTacToeDbService dbService)
         {
             _dbService = dbService;
@@ -15,6 +20,10 @@ namespace Showcase.Hubs
 
         public async Task JoinSpecificTicTacToeGameRoom(string roomCode, string username)
         {
+            if (string.IsNullOrWhiteSpace(roomCode) || string.IsNullOrWhiteSpace(username))
+                return;
+            if (!RoomCodeUsernameAllowlist.IsMatch(roomCode) || !RoomCodeUsernameAllowlist.IsMatch(username))
+                return;
 
             if (await _dbService.CheckOfGameVolIs(roomCode))
             {
@@ -30,7 +39,7 @@ namespace Showcase.Hubs
                 .SendAsync("PlayerCountUpdate", session.Players.Count);
 
             await Clients.Group(roomCode)
-              .SendAsync("JoinSpecificTicTacToeGameRoom", "admin", $"{username} has joined {roomCode}");
+              .SendAsync("JoinSpecificTicTacToeGameRoom", "admin", $"{WebUtility.HtmlEncode(username)} has joined {WebUtility.HtmlEncode(roomCode)}");
 
             var currentPlayer = session.Players.FirstOrDefault(p => p.ConnectionId == Context.ConnectionId);
 
@@ -40,11 +49,15 @@ namespace Showcase.Hubs
 
         public async Task SendMessage(string msg)
         {
+            if (string.IsNullOrWhiteSpace(msg) || msg.Length > 500)
+                return;
+
+            var sanitized = WebUtility.HtmlEncode(msg);
             var conn = await _dbService.GetConnectionByIdAsync(Context.ConnectionId);
             if (conn != null)
             {
                 await Clients.Group(conn.GameSession!.RoomCode)
-                    .SendAsync("ReceiveSpecificMessage", conn.Username, msg);
+                    .SendAsync("ReceiveSpecificMessage", WebUtility.HtmlEncode(conn.Username), sanitized);
             }
         }
 
@@ -129,6 +142,8 @@ namespace Showcase.Hubs
 
         public async Task RequestReset(string roomCode)
         {
+            if (string.IsNullOrWhiteSpace(roomCode) || !RoomCodeUsernameAllowlist.IsMatch(roomCode))
+                return;
             var session = await _dbService.GetSessionByRoomCodeAsync(roomCode);
             if (session == null || session.Players.Count != 2)
                 return;
@@ -140,6 +155,8 @@ namespace Showcase.Hubs
 
         public async Task ConfirmReset(string roomCode, bool confirm)
         {
+            if (string.IsNullOrWhiteSpace(roomCode) || !RoomCodeUsernameAllowlist.IsMatch(roomCode))
+                return;
             var session = await _dbService.GetSessionByRoomCodeAsync(roomCode);
             if (session == null)
                 return;
@@ -163,6 +180,8 @@ namespace Showcase.Hubs
         }
         public async Task RequestRematch(string roomCode)
         {
+            if (string.IsNullOrWhiteSpace(roomCode) || !RoomCodeUsernameAllowlist.IsMatch(roomCode))
+                return;
             var session = await _dbService.GetSessionByRoomCodeAsync(roomCode);
             if (session == null || session.Players.Count != 2)
                 return;
@@ -174,6 +193,8 @@ namespace Showcase.Hubs
 
         public async Task ConfirmRematch(string roomCode, bool confirm)
         {
+            if (string.IsNullOrWhiteSpace(roomCode) || !RoomCodeUsernameAllowlist.IsMatch(roomCode))
+                return;
             var session = await _dbService.GetSessionByRoomCodeAsync(roomCode);
             if (session == null)
                 return;

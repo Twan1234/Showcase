@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FiyHvxsX8w0=",
+  "dgSpecHash": "c8F+fqwvmdo=",
   "success": true,
   "projectFilePath": "C:\\Repos\\Showcase\\Showcase.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\klotwa_Vene\\.nuget\\packages\\aspnetcoreratelimit\\5.0.0\\aspnetcoreratelimit.5.0.0.nupkg.sha512",
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\klotwa_Vene\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
