@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Repos\\Showcase\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\dataservice\\tictactoedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:dataservice\\tictactoedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\wwwroot\\js\\form-versturen\\server\\.npmrc||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:wwwroot\\js\\form-versturen\\server\\.npmrc||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\migrations\\authdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:migrations\\authdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\migrations\\20260308091631_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:migrations\\20260308091631_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\.npmrc||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:.npmrc||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,10 +39,6 @@
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:controllers\\tictactoecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\dataservice\\tictactoedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:dataservice\\tictactoedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|c:\\repos\\showcase\\dataservice\\itictactoedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4DD6CE86-933E-4C33-AE86-F123A2277B95}|Showcase.csproj|solutionrelative:dataservice\\itictactoedbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -58,17 +54,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Repos\\Showcase\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Repos\\Showcase\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAwGEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAiwGcAAABsAQAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T09:19:48.907Z",
               "EditorCaption": ""
@@ -99,32 +95,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "20260308091631_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Repos\\Showcase\\Migrations\\20260308091631_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260308091631_InitialCreate.cs",
-              "ToolTip": "C:\\Repos\\Showcase\\Migrations\\20260308091631_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260308091631_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T09:17:01.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AuthDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Repos\\Showcase\\Migrations\\AuthDbContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\AuthDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Repos\\Showcase\\Migrations\\AuthDbContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\AuthDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAPYAAAAAAAAAAAAAAA0BAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T09:17:07.453Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "ProfileController.cs",
               "DocumentMoniker": "C:\\Repos\\Showcase\\Controllers\\ProfileController.cs",
@@ -137,18 +107,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Repos\\Showcase\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Repos\\Showcase\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T09:17:49.573Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "TicTacToeController.cs",
               "DocumentMoniker": "C:\\Repos\\Showcase\\Controllers\\TicTacToeController.cs",
@@ -158,6 +116,45 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-08T09:17:54.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicTacToeDbService.cs",
+              "DocumentMoniker": "C:\\Repos\\Showcase\\DataService\\TicTacToeDbService.cs",
+              "RelativeDocumentMoniker": "DataService\\TicTacToeDbService.cs",
+              "ToolTip": "C:\\Repos\\Showcase\\DataService\\TicTacToeDbService.cs",
+              "RelativeToolTip": "DataService\\TicTacToeDbService.cs",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAiwI8AAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-08T09:17:27.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": ".npmrc",
+              "DocumentMoniker": "C:\\Repos\\Showcase\\.npmrc",
+              "RelativeDocumentMoniker": ".npmrc",
+              "ToolTip": "C:\\Repos\\Showcase\\.npmrc",
+              "RelativeToolTip": ".npmrc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-08T10:23:53.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": ".npmrc",
+              "DocumentMoniker": "C:\\Repos\\Showcase\\wwwroot\\js\\form-versturen\\server\\.npmrc",
+              "RelativeDocumentMoniker": "wwwroot\\js\\form-versturen\\server\\.npmrc",
+              "ToolTip": "C:\\Repos\\Showcase\\wwwroot\\js\\form-versturen\\server\\.npmrc",
+              "RelativeToolTip": "wwwroot\\js\\form-versturen\\server\\.npmrc",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-03-08T10:23:54.769Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -174,18 +171,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "TicTacToeDbService.cs",
-              "DocumentMoniker": "C:\\Repos\\Showcase\\DataService\\TicTacToeDbService.cs",
-              "RelativeDocumentMoniker": "DataService\\TicTacToeDbService.cs",
-              "ToolTip": "C:\\Repos\\Showcase\\DataService\\TicTacToeDbService.cs",
-              "RelativeToolTip": "DataService\\TicTacToeDbService.cs",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAiwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-08T09:17:27.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "ITicTacToeDbService.cs",
               "DocumentMoniker": "C:\\Repos\\Showcase\\DataService\\ITicTacToeDbService.cs",
               "RelativeDocumentMoniker": "DataService\\ITicTacToeDbService.cs",
@@ -197,7 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "TicTacToeHub.cs",
               "DocumentMoniker": "C:\\Repos\\Showcase\\Hubs\\TicTacToeHub.cs",
               "RelativeDocumentMoniker": "Hubs\\TicTacToeHub.cs",

@@ -62,6 +62,10 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: NuGet dependency audit (C2)
+      run: dotnet restore --no-cache
+      continue-on-error: false
+
     # Add any setup steps before running the `github/codeql-action/init` action.
     # This includes steps like installing compilers or runtimes (`actions/setup-node`
     # or others). This is typically only required for manual builds.

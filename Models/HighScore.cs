@@ -1,4 +1,4 @@
-﻿namespace Showcase.Models
+namespace Showcase.Models
 {
     public class HighScore
     {

@@ -1,9 +1,23 @@
 const form = document.querySelector('#contact-form');
+if (form) {
+    form.addEventListener('submit', onSubmit);
+    const resetBtn = form.querySelector('#contact-reset');
+    if (resetBtn) resetBtn.addEventListener('click', (e) => { if (!confirm('Weet je zeker dat je het formulier wilt resetten?')) e.preventDefault(); });
+}
 
-form.addEventListener('submit', onSubmit);
+function hasConsent() {
+    const gdprChoice = localStorage.getItem('gdprChoice');
+    const gdprStatus = localStorage.getItem('gdpr-status');
+    return gdprChoice === 'accept' || gdprStatus === 'accepted';
+}
 
 async function onSubmit(e) {
     e.preventDefault();
+
+    if (!hasConsent()) {
+        alert('Please accept the Privacy Policy (via the consent banner at the bottom of the page) before sending your message. We do not use your data without your consent.');
+        return;
+    }
 
     grecaptcha.ready(async function () {
         try {

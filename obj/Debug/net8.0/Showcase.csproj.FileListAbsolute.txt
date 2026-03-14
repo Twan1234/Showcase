@@ -1,3 +1,4 @@
+C:\Repos\Showcase\bin\Debug\net8.0\nuget.config
 C:\Repos\Showcase\bin\Debug\net8.0\appsettings.Development.json
 C:\Repos\Showcase\bin\Debug\net8.0\appsettings.json
 C:\Repos\Showcase\bin\Debug\net8.0\appsettings.Production.json

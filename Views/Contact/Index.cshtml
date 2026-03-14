@@ -21,7 +21,7 @@
 
             <div class="form-contactpagina__inputelement">
                 <label for="email">Email:</label>
-                <input type="email" name="email" id="email" required minlength="8" maxlength="50" ria-label="Emailadres" 
+                <input type="email" name="email" id="email" required minlength="8" maxlength="50" aria-label="Emailadres" 
                 pattern="^[a-zA-Z0-9._+-]+&#64;[a-zA-Z0-9.-]+\.[a-zA-Z]{2,9}$">
                 <span class="error" aria-live="polite"></span>
             </div>
@@ -41,9 +41,16 @@
             </div>
 
             <div class="form-contactpagina__inputelement">
-                <input type="submit" value="Verstuur">
-                <input type="reset" value="Reset"
-                    onclick="return confirm('Weet je zeker dat je het formulier wilt resetten?')">
+                <label class="form-contactpagina__consent">
+                    <input type="checkbox" name="privacy_consent" id="privacy_consent" required aria-describedby="privacy_consent_hint">
+                    I have read the <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy Policy</a> and consent to the collection and use of my data as described there.
+                </label>
+                <span id="privacy_consent_hint" class="visually-hidden">Required to submit the form.</span>
+            </div>
+
+            <div class="form-contactpagina__inputelement">
+                <input type="submit" value="Verstuur" id="contact-submit">
+                <input type="reset" value="Reset" id="contact-reset">
             </div>
         </form>
     </section>

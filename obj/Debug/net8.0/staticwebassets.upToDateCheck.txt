@@ -5,6 +5,7 @@ wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Images\TwanKloekPhoto.JPEG
 wwwroot\js\form-versturen\scripts\captcha.js
+wwwroot\js\form-versturen\server\.npmrc
 wwwroot\js\form-versturen\server\package-lock.json
 wwwroot\js\form-versturen\server\package.json
 wwwroot\js\form-versturen\server\server.js

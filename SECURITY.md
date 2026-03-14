@@ -1,33 +1,30 @@
 # Security Policy
 
-## Reporting a Vulnerability
-To report a security issue, please email s1156843@student.windesheim.nl
-with a description of the issue, the steps you took to create the issue, affected versions, and, if known, mitigations for the issue. 
-This project follows a 90 day disclosure timeline.
+**Report a vulnerability:** s1156843@student.windesheim.nl (description, steps, versions, mitigations). 90-day disclosure.
 
-## Security Overview
+## Secure SDLC (C1)
 
-This document provides a high-level overview of security practices for the Showcase application. For detailed security requirements, see:
-- `THREAT_MODEL.md` - Threat modeling and risk analysis
-- `ASVS_OVERZICHT.md` - OWASP ASVS compliance status
+Security in all stages: **Planning** – threat model, data classification, I/O requirements. **Development** – validation, trusted deps (nuget.config, .npmrc). **Build** – CodeQL, dependency checks. **Deployment** – secrets/env, HTTPS, headers. **Operations** – report above; update docs on major changes.
 
-### Security Principles
-- **Defense in Depth**: Multiple layers of security controls
-- **Least Privilege**: Users and services have minimum required permissions
-- **Secure by Default**: Secure configurations are the default
-- **Fail Securely**: Errors don't expose sensitive information
+Details: `THREAT_MODEL.md`, `DATA-CLASSIFICATION.md`, `INPUT-OUTPUT-REQUIREMENTS.md`.
 
-### Key Security Features
-- ✅ ASP.NET Core Identity for authentication
-- ✅ Role-based access control (Admin/Member)
-- ✅ Entity Framework Core for SQL injection prevention
-- ✅ HTTPS/TLS enforcement
-- ✅ Secure session management
-- ✅ Input validation and output encoding
+## Password policy (C6)
 
-### Known Security Considerations
-See `ASVS_OVERZICHT.md` for items that still need implementation, including:
-- Content Security Policy (CSP)
-- Database encryption at rest
-- Rate limiting
-- Enhanced logging and monitoring
+| Vereiste | Hoe we voldoen |
+|----------|----------------|
+| Geen truncatie; meerdere spaties → één toegestaan | Identity kapt wachtwoorden niet af; spaties niet aangepast. |
+| Alle printable Unicode (incl. spaties, emoji) toegestaan | Geen composition rules: `RequireDigit/Lowercase/Uppercase/NonAlphanumeric` = false. |
+| Gebruiker kan wachtwoord wijzigen | Manage → Password (Identity UI ChangePassword-pagina). |
+| Wijzig wachtwoord vereist huidig + nieuw wachtwoord | Identity `ChangePasswordAsync` met current + new. |
+| Breached-wachtwoord check (registratie/login/wijziging) | Lokale validator `BreachedPasswordValidator` met lijst veelvoorkomende wachtwoorden. |
+| Geen composition rules | Zie regel 2; geen eisen voor hoofdletters/cijfers/speciale tekens. |
+| Geen periodieke rotatie of wachtwoordgeschiedenis | Niet geïmplementeerd. |
+| Plakken, browser-help, wachtwoordmanagers toegestaan | Geen `autocomplete="off"` op wachtwoordvelden; juiste autocomplete (current-password/new-password). |
+
+## Unneeded features, documentation and samples (ASVS)
+
+| Maatregel | Implementatie |
+|-----------|----------------|
+| Geen dev-documentatie in productie-errorpagina | Error-pagina toont instructies voor Development-modus alleen als `IWebHostEnvironment.IsDevelopment()`; in productie alleen generieke foutmelding. |
+| Geen sample-/default-app branding | React-manifest: "Create React App Sample" vervangen door appnaam "Showcase". |
+| Geen onnodige code in build | RunQuery-map uitgesloten van compilatie (`Compile Remove="RunQuery\**"`); alleen benodigde docs (SECURITY, THREAT_MODEL, etc.) in repo. |
