@@ -16,7 +16,7 @@ public sealed class MaxLengthPasswordValidator : IPasswordValidator<ApplicationU
                 ? IdentityResult.Failed(new IdentityError
                 {
                     Code = "PasswordTooLong",
-                    Description = "Password must not exceed 128 characters."
+                    Description = "Password must be 12–128 characters."
                 })
                 : IdentityResult.Success);
 }

@@ -110,12 +110,10 @@ namespace Showcase.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
-                // This doesn't count login failures towards account lockout
-                // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: true);
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User logged in.");
+                    _logger.LogInformation("User logged in. Email: {Email}", Input.Email);
                     return LocalRedirect(returnUrl);
                 }
                 if (result.RequiresTwoFactor)
@@ -124,11 +122,12 @@ namespace Showcase.Areas.Identity.Pages.Account
                 }
                 if (result.IsLockedOut)
                 {
-                    _logger.LogWarning("User account locked out.");
+                    _logger.LogWarning("User account locked out. Email: {Email}", Input.Email);
                     return RedirectToPage("./Lockout");
                 }
                 else
                 {
+                    _logger.LogWarning("Failed login attempt for email: {Email}", Input.Email);
                     ModelState.AddModelError(string.Empty, "Invalid login attempt.");
                     return Page();
                 }

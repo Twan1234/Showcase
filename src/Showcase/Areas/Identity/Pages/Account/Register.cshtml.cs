@@ -92,7 +92,7 @@ namespace Showcase.Areas.Identity.Pages.Account
             ///     directly from your code. This API may change or be removed in future releases.
             /// </summary>
             [Required]
-            [StringLength(128, MinimumLength = 64, ErrorMessage = "Password must be 64–128 characters.")]
+            [StringLength(128, MinimumLength = 12, ErrorMessage = "Password must be 12–128 characters.")]
             [DataType(DataType.Password)]
             [Display(Name = "Password")]
             public string Password { get; set; }

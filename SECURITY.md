@@ -28,3 +28,15 @@ Details: `THREAT_MODEL.md`, `DATA-CLASSIFICATION.md`, `INPUT-OUTPUT-REQUIREMENTS
 | Geen dev-documentatie in productie-errorpagina | Error-pagina toont instructies voor Development-modus alleen als `IWebHostEnvironment.IsDevelopment()`; in productie alleen generieke foutmelding. |
 | Geen sample-/default-app branding | React-manifest: "Create React App Sample" vervangen door appnaam "Showcase". |
 | Geen onnodige code in build | RunQuery-map uitgesloten van compilatie (`Compile Remove="RunQuery\**"`); alleen benodigde docs (SECURITY, THREAT_MODEL, etc.) in repo. |
+
+## ASVS – Measurements taken (implemented)
+
+| ASVS | Measurement taken |
+|------|-------------------|
+| V2.1.1 | `IdentityOptions.Password.RequiredLength = 12` (min 12 chars). |
+| V2.2.1 | `lockoutOnFailure: true` on login; Identity lockout: `MaxFailedAccessAttempts = 5`, `DefaultLockoutTimeSpan = 15` min; IP rate limit (AspNetCoreRateLimit) 100/min. |
+| V3.4.3 | `options.Cookie.SameSite = SameSiteMode.Lax` on application cookie. |
+| V3.4.4 | In production: `options.Cookie.Name = "__Host-.AspNetCore.Cookies"`. |
+| V3.4 (Secure) | In production: `CookieSecurePolicy.Always`; otherwise `SameAsRequest`. |
+| V7.1.3 / V7.2.1 | Log successful login (with email); log failed login attempt (email only, no password); log lockout (email). |
+| V8.3.2 | Manage → Personal data: “Download my data” (JSON export); “Delete my account and data” (DeletePersonalData page with password confirmation, then `UserManager.DeleteAsync` + sign out). |
