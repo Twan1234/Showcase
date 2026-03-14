@@ -19,7 +19,6 @@ namespace Showcase.Controllers
 
         public async Task<IActionResult> Index([FromQuery] string? sortOrder)
         {
-            // ASVS V5.1.3: allowlist voor queryparams; ongeldige waarde → default
             const string defaultSort = "Wins";
             var allowed = new HashSet<string>(StringComparer.OrdinalIgnoreCase) { "Wins", "PlayerName", "LastPlayed", "Losses", "Draws" };
             var order = !string.IsNullOrEmpty(sortOrder) && allowed.Contains(sortOrder) ? sortOrder : defaultSort;

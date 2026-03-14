@@ -9,8 +9,6 @@ namespace Showcase.Hubs
     public class TicTacToeHub : Hub
     {
         private readonly ITicTacToeDbService _dbService;
-
-        // ASVS V5.1.3: allowlist voor roomCode/username (alfanumeriek + koppelteken, max 20)
         private static readonly Regex RoomCodeUsernameAllowlist = new(@"^[a-zA-Z0-9\-]{1,20}$", RegexOptions.Compiled);
 
         public TicTacToeHub(ITicTacToeDbService dbService)
@@ -104,7 +102,7 @@ namespace Showcase.Hubs
             if (nextPlayer != null)
             {
                 await _dbService.UpdateSessionTurnAsync(session.Id, nextPlayer.ConnectionId);
-                await Clients.Group(session.RoomCode).SendAsync("UpdateTurn", new { ConnectionId = nextPlayer.ConnectionId });            
+                await Clients.Group(session.RoomCode).SendAsync("UpdateTurn", new { ConnectionId = nextPlayer.ConnectionId });
             }
         }
 
@@ -175,9 +173,10 @@ namespace Showcase.Hubs
             {
                 var otherPlayer = session.Players.FirstOrDefault(p => p.ConnectionId != Context.ConnectionId);
                 if (otherPlayer != null)
-                    await Clients.Client(otherPlayer.ConnectionId).SendAsync("ResetRequestRejected");              
+                    await Clients.Client(otherPlayer.ConnectionId).SendAsync("ResetRequestRejected");
             }
         }
+
         public async Task RequestRematch(string roomCode)
         {
             if (string.IsNullOrWhiteSpace(roomCode) || !RoomCodeUsernameAllowlist.IsMatch(roomCode))
@@ -218,8 +217,6 @@ namespace Showcase.Hubs
                 await Clients.Client(Context.ConnectionId).SendAsync("RedirectToLobby");
             }
         }
-
     }
-
 }
 

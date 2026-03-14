@@ -26,7 +26,6 @@ builder.Services.AddSignalR();
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
-// ASVS V8.1.4, V11.1.4: rate limiting per IP (anti-automation / abnormal request detection)
 builder.Services.AddMemoryCache();
 builder.Services.Configure<IpRateLimitOptions>(builder.Configuration.GetSection("IpRateLimiting"));
 builder.Services.AddInMemoryRateLimiting();
@@ -51,14 +50,12 @@ builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
     .AddPasswordValidator<MaxLengthPasswordValidator>()
     .AddPasswordValidator<BreachedPasswordValidator>();
 
-// ASVS C6: min 64 / max 128; no composition rules; no truncation; Unicode allowed
 builder.Services.Configure<IdentityOptions>(options =>
 {
     options.Password.RequiredLength = 64;
     options.Password.RequireDigit = options.Password.RequireLowercase = options.Password.RequireUppercase = options.Password.RequireNonAlphanumeric = false;
 });
 
-// OWASP C6: cookie HttpOnly + Secure; session token entropy ≥64 bits via Data Protection (default)
 builder.Services.ConfigureApplicationCookie(options =>
 {
     options.Cookie.HttpOnly = true;
@@ -70,7 +67,6 @@ builder.WebHost.ConfigureKestrel(serverOptions => serverOptions.AddServerHeader 
 builder.Services.Configure<ForwardedHeadersOptions>(options =>
     options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto);
 
-// OWASP ASVS: HSTS on all responses, all subdomains; max-age=15724800 (182 days), includeSubdomains
 builder.Services.Configure<HstsOptions>(options =>
 {
     options.MaxAge = TimeSpan.FromSeconds(15724800);
@@ -79,7 +75,6 @@ builder.Services.Configure<HstsOptions>(options =>
 
 var app = builder.Build();
 
-// ASVS: debug/developer features off in production; use generic error page, no dev console
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -90,36 +85,41 @@ EnsureSqliteDirectories(app);
 RunMigrations(app);
 
 app.UseForwardedHeaders();
-// ASVS: only allow GET, POST, HEAD, OPTIONS (preflight); 405 + log on other methods
 app.Use(async (context, next) =>
 {
     if (Array.IndexOf(new[] { "GET", "POST", "HEAD", "OPTIONS" }, context.Request.Method.ToUpperInvariant()) < 0)
-    { context.Response.StatusCode = 405; app.Logger.LogWarning("Invalid method: {Method} {Path}", context.Request.Method, context.Request.Path); return; }
+    {
+        context.Response.StatusCode = 405;
+        app.Logger.LogWarning("Invalid method: {Method} {Path}", context.Request.Method, context.Request.Path);
+        return;
+    }
     await next();
 });
-// ASVS: security headers, no cache for dynamic content, block metadata paths, no version headers
 app.Use(async (context, next) =>
 {
     var path = (context.Request.Path.Value ?? "").Replace('\\', '/');
     if (path.Contains("/.git", StringComparison.OrdinalIgnoreCase) || path.Contains("/.svn", StringComparison.OrdinalIgnoreCase)
         || path.Contains(".ds_store", StringComparison.OrdinalIgnoreCase) || path.Contains("thumbs.db", StringComparison.OrdinalIgnoreCase) || path.Contains("/.env", StringComparison.OrdinalIgnoreCase))
-    { context.Response.StatusCode = 404; return; }
+    {
+        context.Response.StatusCode = 404;
+        return;
+    }
     context.Response.Headers["X-Frame-Options"] = "SAMEORIGIN";
-    // ASVS: Referrer-Policy to avoid leaking sensitive URL data via Referer to untrusted parties
     context.Response.Headers["Referrer-Policy"] = "strict-origin-when-cross-origin";
-    // ASVS: CSP to mitigate XSS (script/style/img sources; no unsafe-inline for scripts)
     context.Response.Headers["Content-Security-Policy"] = "default-src 'self'; script-src 'self' https://www.google.com https://www.gstatic.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https://api.web3forms.com; connect-src 'self' https://api.web3forms.com https://www.google.com";
     context.Response.Headers["X-Content-Type-Options"] = "nosniff";
     if (!path.StartsWith("/css/", StringComparison.OrdinalIgnoreCase) && !path.StartsWith("/js/", StringComparison.OrdinalIgnoreCase)
         && !path.StartsWith("/lib/", StringComparison.OrdinalIgnoreCase) && !path.StartsWith("/static/", StringComparison.OrdinalIgnoreCase)
         && !path.StartsWith("/Identity/", StringComparison.OrdinalIgnoreCase) && !path.Equals("/favicon.ico", StringComparison.OrdinalIgnoreCase))
-    { context.Response.Headers["Cache-Control"] = "no-store, no-cache, private"; context.Response.Headers["Pragma"] = "no-cache"; }
+    {
+        context.Response.Headers["Cache-Control"] = "no-store, no-cache, private";
+        context.Response.Headers["Pragma"] = "no-cache";
+    }
     context.Response.OnStarting(() =>
     {
         context.Response.Headers.Remove("Server");
         context.Response.Headers.Remove("X-Powered-By");
         var ct = context.Response.ContentType ?? "";
-        // ASVS: Content-Disposition on API responses so browsers treat as download, not inline (reduce XSS/content-sniffing risk)
         if (path.StartsWith("/api/", StringComparison.OrdinalIgnoreCase))
         {
             var baseCt = ct.Split(';')[0].Trim();
@@ -200,7 +200,6 @@ class MaxLengthPasswordValidator : IPasswordValidator<ApplicationUser>
         Task.FromResult(p != null && p.Length > 128 ? IdentityResult.Failed(new IdentityError { Code = "PasswordTooLong", Description = "Password must not exceed 128 characters." }) : IdentityResult.Success);
 }
 
-// ASVS C6: breached password check (local list, no API)
 class BreachedPasswordValidator : IPasswordValidator<ApplicationUser>
 {
     private static readonly HashSet<string> Breached = new(StringComparer.OrdinalIgnoreCase) { "123456", "password", "12345678", "qwerty", "123456789", "12345", "1234", "111111", "1234567", "dragon", "123123", "baseball", "abc123", "football", "monkey", "letmein", "696969", "shadow", "master", "666666", "qwertyuiop", "123321", "mustang", "1234567890", "michael", "654321", "pussy", "superman", "1qaz2wsx", "7777777", "fuckyou", "121212", "000000", "qazwsx", "123qwe", "killer", "trustno1", "jordan", "jennifer", "zxcvbnm", "asdfgh", "hunter", "buster", "soccer", "harley", "batman", "andrew", "tigger", "sunshine", "iloveyou", "fuckme", "2000", "charlie", "robert", "thomas", "hockey", "ranger", "daniel", "starwars", "klaster", "112233", "george", "asshole", "computer", "michelle", "jessica", "pepper", "1111", "zxcvbn", "555555", "11111111", "131313", "freedom", "777777", "pass", "fuck", "maggie", "159753", "aaaaaa", "ginger", "princess", "joshua", "cheese", "amanda", "summer", "love", "ashley", "6969", "nicole", "chelsea", "biteme", "matthew", "access", "yankees", "987654321", "dallas", "austin", "thunder", "taylor", "matrix" };
